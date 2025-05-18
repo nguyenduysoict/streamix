@@ -1,0 +1,545 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+#[2.2.7] - 2022-12-16
+### Fixed
+- PHP8.x comptibility
+
+#[2.2.6] - 2022-08-10
+### Added
+- Polylang Pro support
+- TimeZone settings
+
+### Fixed
+- Menu item dialog checkboxes
+
+#[2.2.5] - 2022-03-22
+### Fixed
+- Installation process issue
+- Menu item uploaded icon fix
+
+#[2.2.4] - 2022-02-23
+### Fixed
+- Installation process issue
+
+#[2.2.3] - 2022-02-16
+### Added
+- Button title field
+- Button description field
+- Button label field
+- Menu style-1
+- Popup no-background style
+- Large menu size
+- Menu backdrop
+
+### Fixed
+- Sidebar appearance bugs
+- Animation origins
+
+#[2.2.2] - 2021-12-18
+### Fixed
+- Tawk.to integration
+
+#[2.2.1] - 2021-11-24
+### Fixed
+- Fixed installation process
+
+#[2.2.0] - 2021-11-09
+### Added
+- Hide main widget button on page loads option
+
+### Fixed
+- Main button icons slider animation
+- custom forms (inserted by shortcodes)
+- admin performance (update check)
+- translation files updated
+
+##[2.1.9] - 2021-10-01
+### Fixed
+- Enabled and disabled pages functionality
+
+##[2.1.8] - 2021-08-30
+### Fixed
+- Facebook customer chat
+
+##[2.1.7] - 2021-08-25
+### Fixed
+- Callback list database request issue
+- Menu item edit failure
+
+##[2.1.6] - 2021-07-28
+### Fixed
+- Popup with iFrame issue
+- Minor configuration issue
+
+##[2.1.5] - 2021-07-22
+### Fixed
+- Multi-popup issue
+
+##[2.1.4] - 2021-07-21
+### Fixed
+- Uploaded menu header image issue
+- Compatibility problem with https://codecanyon.net/item/excited-testimonials-showcase-for-wordpress/13705636
+
+##[2.1.3] - 2021-07-09
+### Added 
+- Disable callback and email request functionality option
+
+### Fixed
+- Google reCaptcha bug
+
+##[2.1.2] - 2021-06-09
+### Fixed
+- Shortlinks hotfix
+
+##[2.1.1] - 2021-06-09
+### Fixed
+- Shortlinks
+
+##[2.1.0] - 2021-06-09
+### Added
+- Apple Business Chat support
+- Polylang Support
+- Online badge to main button
+
+### Fixed
+- HTTP_REFERER warning
+
+### New 
+- jquery plugin replaced by vanilla-js plugin
+
+##[2.0.6] - 2021-05-14
+### Fixed 
+- dynamic variable {url} value
+
+##[2.0.5] - 2021-05-13
+### Added
+- dynamic variables to the link {site}, {url}
+- dynamic variables to the form value {site}, {url}
+
+### Fixed
+- PHP 5.4 Form Entity issue
+- Shortcode button icon fix
+- Form labels
+- Select values fix
+
+##[2.0.4] - 2021-04-18
+### Added
+- Form webhook functionality
+
+### Fixed
+- Menu items mobile view
+- Form field non-required validation 
+
+##[2.0.3] - 2021-04-02
+### Fixed
+- Validation for Greek characters
+- WPML support (just added language translations won't save)
+
+##[2.0.2] - 2021-03-12
+### Fixed
+- Plugin render fail
+
+##[2.0.1] - 2021-03-12
+### Fixed
+- PHP 7.4 Warning
+- Form field label escaping removed
+
+##[2.0.0] - 2021-03-11
+### Added
+- Font option for widget texts
+- Custom CSS rules option
+- Disable widget on several pages option
+- Enable widget on pages now can include "*" sign or regular expression
+- Upload custom image as main button icon
+- "Personal" menu layout
+- Menu subheader
+- Menu header svg icon
+- Menu header custom icon
+- Integration with PerfexCRM
+- Custom forms functionality
+- Email templates
+- Welcome messages (for "Personal" menu layout)
+- Menu item popup re-organized to 3 tabs (General, Action and Visibility)
+- Custom image for menu item icon
+- "Remove circle around icon" option for menu item
+- "Show online badge" option for menu item
+- Schedule option for menu item
+- Email requests (similar as Callback requests)
+- "Help" section
+- Updates channel option (you can select between "Production" and "Beta" channels)
+- Plugin JS output minification option
+- Added "Single menu item" mode
+
+### Fixed
+- Import/Export process
+- Facebook Custom Chat version updated
+- WPML
+- SEO improved
+- HTML validator pass 
+- Main button animation
+- Favicon issue
+
+### Removed
+- Skype Web Control (Microsoft has revoked this project)
+
+
+##[1.9.9] - 2020-11-22
+### Added 
+- Language selector for the menu item
+
+##[1.9.8] - 2020-10-31
+### Fixed 
+- WPNonce invalid value
+
+##[1.9.7] - 2020-09-30
+### Added 
+- CSS classes for button shortcut action
+
+### Fixed
+- Import process issues
+- Zendesk integration chat:unreadMessages issue
+
+##[1.9.6] - 2020-09-19
+### Fixed
+- WPML support
+
+##[1.9.5] - 2020-09-18
+### Added
+- WPML support
+
+##[1.9.3] - 2020-08-12
+### Fixed
+- Facebook customer chat
+
+##[1.9.2] - 2020-07-31
+### Fixed
+- Import/export settings
+
+##[1.9.1] - 2020-07-28
+### Fixed
+- Tawk.to fixes
+
+##[1.9.0] - 2020-07-18
+### Fixed
+- Tawk.to auto-open bug fix
+- Facebook customer chat icon fix
+- Zendesk fix
+
+##[1.8.9] - 2020-06-25
+### Fixed
+- Callback requests table action issue
+- Prompt issue
+
+##[1.8.8] - 2020-06-16
+### Added
+- CSRF validation
+- Stored XSS fix
+
+##[1.8.7] - 2020-06-12
+### Added
+- Option to disable jQuery initialization
+
+### Fixed
+- Installation initial config values
+
+##[1.8.6] - 2020-06-11
+### Fixed
+- Removed wp_enqueue_editor function
+
+##[1.8.5] - 2020-06-01
+### Added
+- Hamburger icon
+
+### Fixed
+- Facebook customer chat javascript file ID conflict 
+
+##[1.8.4] - 2020-05-21
+### Added
+- Button icon size option
+- Button appearing animation option
+- Menu sidebar style
+- Menu popup animation
+- Menu sidebar animation
+- Menu items animation
+- Plugin core updated
+
+##[1.8.3] - 2020-05-19
+### Added
+- Deactivation plugin for current domain
+- PhpLive integration
+- Paldesk integration
+
+##[1.8.2] - 2020-05-15
+### Fixed
+- Small issues
+
+##[1.8.1] - 2020-05-11
+### Added
+- Output filtration
+- Server config values validation
+
+##[1.8.0] - 2020-05-06
+### Added
+- Option to choose who can access callback list
+
+### Fixed
+- Security improvements
+
+##[1.7.9] - 2020-04-09
+### Fixed
+- Skype integration
+- FreshChat integration
+
+##[1.7.8] - 2020-02-07
+### Fixed
+- Tawk.to appearance issue
+
+##[1.7.7] - 2020-01-29
+### Added
+- FreshChat integration
+
+##[1.7.6] - 2020-01-20
+### Fixed
+- Zoho SalesIQ chat integration fix
+
+##[1.7.5] - 2020-01-14
+### Added
+- Zoho SalesIQ chat integration
+
+##[1.7.4] - 2019-12-18
+### Fixed
+- Name validation unicode languages
+
+##[1.7.3] - 2019-12-15
+### Fixed
+- Name validation unicode languages
+
+##[1.7.2] - 2019-12-13
+### Added
+- Name field validation options
+- Email field to callback form
+- Email field to callback requests table
+- Updated translations
+
+### Fixed
+- Email subject translation
+
+##[1.7.1] - 2019-12-04
+### Fixed
+- Activation issue
+
+##[1.7.0] - 2019-11-30
+### Fixed
+- Fixed JivoSite issue
+
+##[1.6.9] - 2019-11-22
+### Fixed
+- Fixed Tawk.to issue
+
+##[1.6.8] - 2019-09-30
+### Fixed
+- Fixed JivoSite issue
+
+##[1.6.7] - 2019-09-25
+### Fixed
+- HTML code in GDRP Title
+
+##[1.6.6] - 2019-09-03
+### Added
+- Tidio Integration
+- Jivosite integration
+- Added comments functionality to callback requests
+- Updated translation template
+- Updated Russian translation
+- Added Google Analytics integration
+
+### Fixed
+- Callback requests admin table mobile view
+
+##[1.6.4] - 2019-08-05
+### Fixed
+- LiveZilla integration
+
+##[1.6.3] - 2019-07-31
+### Added
+- Name and referer fileds to email notification
+- Name and referer fileds to webpush notification
+- Name and referer fileds to sms notification
+- Name and referer fileds to telegram notification
+- Export callback requests to CSV file
+- Delay initialization
+- Disable initialization
+- Open menu after timeout automatically
+
+##[1.6.2] - 2019-06-01
+### Fixed
+- Crisp integration issue
+- Callback customer name field
+
+##[1.6.1] - 2019-05-27
+### Added 
+- Custom popup item type - allows to open popup with text/html content by clicking menu item
+- Name field to callback form
+- Activation functionality
+
+##[1.5.9] - 2019-05-01
+### Added 
+- Background and color option for shortcode
+
+### Fixed
+- Exporting data issue on some PHP versions
+- Button and menu z-index
+- Modal conflict with SimpleModal
+- Safari item editing/adding
+
+##[1.5.8] - 2019-04-29
+### Added 
+- GDPR checkbox
+
+##[1.5.7] - 2019-04-25
+### Added
+- WooCommerce StoreFront theme integration to mobile footer
+- New Menu style - icons without background
+- 1-click auto update
+- LiveZilla integration
+- StoreFront theme compliant - now you can add "contact-us" button to storefront mobile footer
+
+### Fixed
+- LiveChat Pro integration issue
+- Update issue
+- Generate css after import
+
+##[1.5.5] - 2019-04-08
+### Added
+- LiveChat Pro integration
+- Close callback popup timeout
+- Menu items subtitles
+- Option to display menu item for all users or registred users or unregistred users only
+- FontAwesome icons support
+
+### Fixed
+- Performance improved
+
+##[1.5.3] - 2019-04-02
+### Added
+- New icons 
+
+### Fixed
+- Skype WebControl integration
+- UI bootstrap conflicts
+
+##[1.5.2] - 2019-03-14
+### Added
+- Predefinded Brand Colors selector
+
+### Fixed
+- Landscape responsive 
+- Layout fixes
+
+##[1.5.1] - 2019-02-26
+### Added
+- Menu width option
+- Callback request form width option
+
+##[1.5.0] - 2019-02-24
+### Added
+- LiveChat integration (livechatinc.com)
+- SmartSupp integratin
+- All button settings now can be set separately for descktop and mobile versions
+- All menu settings now can be set separately for descktop and mobile versions
+- All prompts settings now can be set separately for descktop and mobile versions
+- Pause between main button animation loops
+- Icon type option to menu settings
+- Lines options to menu settings
+- Header options to menu settings
+- Header close button options to menu settings
+- Shadow size/opacity to menu settings 
+- Export option (for exporting all module data)
+- Import option (for impoting all module data)
+- Prompt position option
+- Russian translation
+- Light design updates
+
+### Fixed
+- TextDomain loading
+- Html email bug
+- RTL bug
+- Improved responsivness
+- Email adress validation
+
+##[1.3.9] - 2019-02-01
+### Added
+- Live helper chat integration
+
+### Fixed
+- Callback mobile form layout
+- Zalo chat validation error
+- Callback is not running custom JS code
+
+##[1.3.8] - 2019-01-30
+### Added
+- OneSignal integration to receive webpush on callback request
+- Link target option
+- Option to control when display prompt messages again after visitor closed them
+- Shortcodes for menu items
+
+##[1.3.7] - 2019-01-26
+### Fixed
+- create_function deprecated in php 7.2
+- load plugin text domain
+
+##[1.3.5] - 2019-01-18
+### Added
+- LinkedIn icon
+- Instagram icon
+- Zendesk icon
+- Zendesk chat support
+- Sandbox mode
+- Html mail support
+- Main button mode option (callback only or menu)
+- Zalo integration
+
+### Fixed
+- Problem with ajaxUrl on some WP versions
+- CSS fixes
+- Tawk.to hidding issue
+
+##[1.3.3] - 2019-01-03
+### Added
+- Zalo icon
+
+### Fixed
+- Fixed bootstrap conflicts
+
+##[1.3.2] - 2018-10-09
+### Fixed
+- Fixed innoDB tables creation
+
+##[1.3.1] - 2018-09-25
+### Added
+- More icons
+- Telegram bot 
+- Change main button feature
+- Phone mask feature
+- Crisp integration
+- Tawk.to integration
+- Hashtags commands
+
+##[1.3.0] - 2018-08-02
+### Added
+- Skype Web Control integration
+- Zendesk chat integration
+- VK community messages integration
+- Facebook customer chat integration
+- Prompt messages feature
+
+##[1.2.0] - 2018-07-21
+### Added
+- Menu size
+- Main button size
+- Twilio integration
+
+
+##[1.0.0] - 2018-06-19
+- First released version

@@ -1,0 +1,741 @@
+#arcu_channel_form{
+    margin-top: 10px;
+}
+.arcu-server-time{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.arcu-server-time span{
+    font-weight: bold;
+}
+#ARCUG_CUSTOM_CSS{
+    min-height: 300px;
+    display: none;
+}
+.arcu-icon-svg{
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    float: right;
+}
+.arcu-reset-forms{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 24px;
+    width: 24px;
+    color: #AAAAAA;
+    padding: 3px;
+    margin: 0;
+    border: 0 none;
+    background: none;
+    cursor: pointer;
+}
+.arcu-reset-forms:hover{
+    color: #00a0d2;
+}
+.arcu-icon-svg svg{
+    height: 16px;
+    width: 16px;
+    display: block;
+    color: #747474;
+}
+.arcu-debug-button{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 18px;
+    width: 18px;
+    color: #AAAAAA;
+}
+.arcu-debug-button.active{
+    color: #db2828;
+}
+.field_custom_css .ace_editor {
+    min-height: 400px;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+}
+#acrontactus-menu.ui.vertical.menu .item.hidden{
+    display: none;
+}
+#arcontactus-emails .wp-editor-wrap {
+    position: relative;
+    top: -33px;
+}
+#arcontactus-emails .field_callback_email_body,
+#arcontactus-emails .field_email_email_body{
+    margin-bottom: 0;
+}
+#arcontactus-emails .field_callback_email_body .help-block,
+#arcontactus-emails .field_email_email_body .help-block{
+    top: -33px;
+    position: relative;
+}
+.arcu-form-section{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.arcu-form-section span{
+    background: #FFFFFF;
+    padding: 0 3px;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+}
+.scrolling.dimmable.dimmed > .dimmer{
+    padding: 0;
+}
+.arcu-form-section:before{
+    content: " ";
+    border-bottom: 1px solid #DDDDDD;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    position: absolute;
+}
+.ui.button.fluid{
+    width: 100%;
+}
+.ui.form select{
+    padding: .67857143em 1em;
+    line-height: 1.21428571em;
+    background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
+}
+.ui.grid > .row.hidden{
+    display: none !important;
+}
+.ui.grid > .hidden{
+    display: none !important;
+}
+.arcu-form .arcu-form-header{
+    padding: 0 32px 10px 0;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 16px;
+}
+.arcu-form .arcu-form-header .button.icon{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+.arcu-form .button.icon{
+    border-radius: 50%;
+    border: 0 none;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: none;
+}
+.arcu-form .button.icon:hover{
+    background: none;
+}
+.arcu-form .button.icon:active, 
+.arcu-form .button.icon:focus{
+    border: 0 none;
+    outline: none;
+    background: none;
+    box-shadow: none !important;
+}
+
+.arcu-form .button.icon i{
+    margin: 0;
+}
+.arcu-form .arcu-form-buttons{
+    margin-top: 15px;
+}
+.arcu-form .ui.form .field{
+    margin-bottom: 15px;
+    position: relative;
+}
+.arcu-form .ui.form .field .button.icon.edit{
+    right: 3px;
+}
+.arcu-form .ui.form .field .button.icon.delete{
+    right: 31px;
+}
+.arcu-form .ui.form .field .button.icon.move{
+    left: 3px;
+}
+.arcu-form-button-group{
+    position: relative;
+    margin-top: 5px;
+}
+.arcu-form-button-group .button{
+    text-align: center;
+}
+.arcu-form-button-group .button.icon{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.2s all;
+}
+.arcu-form-button-group:hover .button.icon{
+    opacity: 1;
+}
+.arcu-form-button-group .button.icon.edit{
+    right: 3px;
+}
+.arcu-form-button-group .button.icon.delete{
+    right: 31px;
+}
+.arcu-form-button-group .arcu-move-handle{
+    left: 3px;
+    bottom: 7px;
+}
+.arcu-form-button-group:hover .arcu-move-handle{
+    opacity: 1;
+}
+.arcu-move-handle{
+    position: absolute;
+    bottom: 11px;
+    left: -17px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    line-height: 18px;
+    opacity: 0;
+    transition: 0.2s all;
+    cursor: move;
+    z-index: 99;
+}
+.arcu-move-handle i{
+    margin: auto;
+}
+.arcu-form .ui.form .field .button.icon{
+    position: absolute;
+    opacity: 0;
+    bottom: 7px;
+    background: #EFEFEF;
+    height: 24px;
+    min-height: 24px;
+    width: 24px;
+    z-index: 99;
+    transition: 0.2s all;
+}
+.arcu-form .ui.form select{
+    max-width: 100%;
+    margin: 0;
+}
+.arcu-form .ui.form .field:hover .button.icon,
+.arcu-form .ui.form .field:hover .arcu-move-handle{
+    opacity: 1;
+}
+.arcu-form .ui.form .arcu-form-field-group-checkbox .arcu-move-handle{
+    bottom: 0;
+}
+.arcu-form .ui.form .arcu-form-field-group-checkbox .button.icon.delete,
+.arcu-form .ui.form .arcu-form-field-group-checkbox .button.icon.edit{
+    bottom: -4px;
+}
+.arcu-form .button.icon.add{
+    border: 1px solid #444444;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 3px #FFFFFF !important;
+    height: 22px;
+    width: 22px;
+    min-height: 22px;
+}
+.arcu-form .button.icon i:before{
+    background: 0 0 !important;
+    line-height: 16px;
+    display: block;
+    height: 16px;
+}
+.arcu-field-add{
+    text-align: center;
+    position: relative;
+}
+.arcu-field-add:before{
+    content: " ";
+    border-bottom: 1px solid #999999;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+}
+.arcu-form .button.icon i{
+    margin: 0 auto;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+}
+.arcu-form .ui.form textarea{
+    resize: none;
+}
+.arcu-schedule{
+    display: flex;
+    margin: 0 -5px;
+}
+.arcu-schedule-item{
+    flex: 1;
+    margin: 0 5px;
+}
+.arcu-schedule-item .arcu-schedule-checkbox{
+    padding: 5px;
+    text-align: center;
+    background: #db2828;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 3px 3px 0 0;
+}
+.arcu-schedule-item .arcu-schedule-checkbox.checked{
+    background: #4eb357;
+}
+.arcu-schedule-item  .arcu-schedule-time{
+    overflow: hidden;
+    margin-top: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s all;
+}
+.arcu-schedule-item.checked  .arcu-schedule-time{
+    opacity: 1;
+    visibility: visible;
+}
+.arcu-schedule-item  .arcu-schedule-time input, .arcu-schedule-item  .arcu-schedule-time span{
+    display: block;
+    float: left;
+}
+.arcu-schedule-item  .arcu-schedule-time input{
+    width: 45% !important;
+    padding: 3px !important;
+    font-size: 12px !important;
+    text-align: center;
+}
+.arcu-schedule-item  .arcu-schedule-time span{
+    width: 10% !important;
+    text-align: center;
+    height: 30px;
+    display: block;
+    line-height: 27px;
+}
+.arcu-img-preview{
+    height: 120px;
+    margin-bottom: 2px;
+}
+.arcu-img-preview img{
+    max-height: 100%;
+    width: auto;
+}
+#arcontactus-form .ui.segment{
+    min-height: 460px;
+}
+#arcontactus-form .ui.form .row{
+    margin-bottom: 20px;
+}
+.ar-blocked{
+    position: relative;
+}
+.ar-loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+}
+.ar-loading .ar-loading-inner{
+    position: absolute;
+    width: 140px;
+    height: 49px;
+    padding: 15px 15px 15px 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border: 1px solid #AAAAAA;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: url('../img/ring-alt.gif') no-repeat 6px 8px scroll  #FFFFFF;
+}
+.arcu-width-60{
+    width: 60px;
+}
+.arcu-width-80{
+    width: 80px;
+}
+.arcu-width-100{
+    width: 100px;
+}
+.arcu-width-120{
+    width: 120px;
+}
+.ui.dimmer{
+    /*z-index: 10000;*/
+}
+#arcontactus-menu-items svg,
+#arcontactus-menu-items img{
+    width: 24px;
+    height: 24px;
+}
+#arcontactus-menu-items i{
+    font-size: 24px;
+}
+.arcontactus-masthead__logo-container{
+    font-size: 26px;
+    line-height: 28px;
+}
+.lbl-color, .lbl-success, .lbl-danger, .lbl-warning, .lbl-default{
+    padding: 0 3px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.lbl-color:hover, .lbl-success:hover, .lbl-danger:hover, .lbl-warning:hover, .lbl-default:hover{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.lbl-success{
+    background: #4eb357;
+}
+.lbl-danger{
+    background: #d5676f;
+}
+.lbl-warning{
+    background: #e6a304;
+}
+.lbl-default{
+    background: #aaaaaa;
+}
+#arcontactus-plugin-container .drag-handle{
+    cursor: move;
+}
+#arcontactus-plugin-container{
+    font-size: 14px !important;
+}
+.jetpack_page_ar-contactus-key-config #wpcontent, 
+.settings_page_ar-contactus-key-config #wpcontent{
+    padding-left: 0;
+}
+.arcontactus-masthead {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 1px 0 rgba(200,215,225,0.5),0 1px 2px #e9eff3;
+}
+.arcontactus-masthead__inside-container {
+    padding: .375rem 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45rem;
+    text-align: left;
+}
+.ui.message:first-child{
+    margin-top: 10px;
+}
+.arcontactus-body{
+    clear: both;
+    padding-top: 15px;
+    padding: 15px 1rem;
+}
+.ui.grid > *, .ui *{
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.ui.segment{
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0;
+}
+#arcontactus-tabs{
+    opacity: 0;
+    transition: 0.2s all;
+}
+#arcontactus-tabs.active{
+    opacity: 1;
+}
+.ui.menu{
+    padding-top: 0;
+}
+#arcontactus-plugin-container .text-right{
+    text-align: right;
+}
+#arcontactus-plugin-container .text-center{
+    text-align: center;
+}
+#arcontactus-plugin-container .hero{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+#arcontactus-plugin-container .muted{
+    color: #747474;
+    margin-top: 0;
+}
+#arcontactus-about p{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#arcontactus-about p a{
+    font-size: 15px;
+}
+.ui.form{
+    display: block;
+}
+.ui.form .has-error label,
+.ui.form .has-error input,
+.ui.form .has-error > .ui.toggle.checkbox label{
+    color: #9f3a38 !important;
+}
+.ui.form .field .errors{
+    display: none;
+    color: #9f3a38;
+}
+.ui.form .field .help-block{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #747474;
+    font-style: italic;
+    padding-left: 10px;
+}
+.ui.form .field .help-block a{
+    font-size: 12px;
+}
+.ui.form .field{
+    margin-bottom: 20px;
+}
+.ui.form .field.has-error .errors{
+    display: block;
+}
+.ui.form .has-error input{
+    background: #fff6f6;
+    border-color: #e0b4b4;
+}
+.ui.form .has-error .labeled > .label{
+    background: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+}
+.ui.form .field.has-error .ui.dropdown{
+    background: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+}
+.ui.modal form > .actions{
+    background: #f9fafb;
+    padding: 1rem 1rem;
+    border-top: 1px solid rgba(34,36,38,.15);
+    text-align: right;
+    border-bottom-left-radius: .28571429rem;
+    border-bottom-right-radius: .28571429rem;
+}
+.ui.dropdown.iconed .menu .item > svg{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -12px;
+}
+.ui.dropdown.iconed{
+    padding-left: 40px;
+}
+.ui.inline.dropdown.active{
+    z-index: 1;
+}
+.ui.search.selection.dropdown > input.search{
+    padding-left: 40px;
+}
+.ui.dropdown .text > svg{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    left: -32px;
+    top: 50%;
+    margin-top: -12px;
+}
+
+.ui.selection.dropdown.iconed .menu > .item{
+    padding-left: 40px !important;
+}
+
+#arcontactus-requests .tablenav .tablenav-pages *{
+    font-size: initial;
+    box-sizing: initial;
+}
+#arcontactus-requests .tablenav{
+    margin-bottom: 6px;
+}
+
+#arcontactus-requests .tablenav .displaying-num, 
+#arcontactus-requests .tablenav .current-page,
+#arcontactus-requests .tablenav .tablenav-paging-text, 
+#arcontactus-requests .tablenav .tablenav-paging-text .total-pages{
+    font-size: 13px;
+}
+#adminmenu .awaiting-mod.hidden, #adminmenu .update-plugins.hidden{
+    display: none;
+}
+#arcontactus-tabs .section-head{
+    text-transform: uppercase;
+    margin-top: 0;
+}
+#arcontactus-tabs hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0; 
+}
+
+#arcontactus-modal .hidden{
+    display: none;
+}
+.onesignal-customlink-subscribe.button{
+    line-height: 13px !important;
+}
+#arcontactus-modal input.disabled{
+    background-color: #EFEFEF;
+}
+#arcontactus-modal .ui.grid > .row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#arcontactus-plugin-container .text-sm{
+    font-size: 12px;
+}
+.arcu-activation{
+    margin: 20px 0;
+    background: #f7f7f7;
+    padding: 15px 0;
+}
+.arcu-activation label{
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: block;
+}
+.arcu-activation .actions{
+    margin-top: 5px;
+}
+.arcu-activation .actions button{
+    margin: 0;
+}
+.arcu-activation input{
+    width: 360px;
+    text-align: center;
+}
+#arcontactus_activation_error{
+    color: #db2828;
+}
+#ar-plugins{
+    text-align: left;
+    clear: both;
+    margin-bottom: 1px;
+}
+.ar-plugin{
+    position: relative;
+    padding: 10px 10px 10px 100px;
+    min-height: 80px;
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    transition: 0.2s all;
+}
+.ar-plugin:hover{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2)
+}
+.ar-plugin img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.ar-plugin .ar-plugin-title{
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.ar-plugin .ar-plugin-desc{
+    font-size: 14px;
+    text-decoration: none;
+    color: #444444;
+}
+.ar-plugin .ar-plugin-actions{
+    text-align: right;
+}
+#arcontactus-about h2{
+    font-size: 18px;
+}
+.arcu-comment .text-right{
+    text-align: right;
+}
+.arcu-lang-group .arcu-lang-selector{
+    min-width: 100%;
+    margin: 0 !important;
+}
+.arcu-lang-content{
+    padding-right: 5px !important;
+}
+.arcu-lang{
+    padding-left: 5px !important;
+}
+.arcu-lang .ui.dropdown .item .ui.image{
+    margin: 1px 10px 0 0;
+}
+.arcu-lang .ui.dropdown > .text > .image,
+.arcu-lang .ui.dropdown > .text > img{
+    margin: 7px 2px 0 0;
+}
+.arcu-lang .ui.dropdown .menu > .item > .image,
+.arcu-lang .ui.dropdown .menu > .item > img{
+    margin: 3px 2px 0 0;
+}
+#arcontactus-form .ui.grid.arcu-lang-group{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#arcontactus-form .ui.grid.arcu-lang-group .column{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.arcu-mobile-table-header{
+    display: none;
+}
+#arcontactus-menu-items td .lbl-color{
+    font-size: 12px;
+}
+@media (max-width: 800px) {
+    #arcontactus-menu-items td,
+    #arcontactus-menu-items th{
+        display: block;
+        width: 100%;
+    }
+    #arcontactus-menu-items th{
+        display: none;
+    }
+    .arcu-mobile-table-header{
+        display: block;
+        float: left;
+        width: 130px;
+    }
+    #arcontactus-menu-items td{
+        overflow: hidden;
+    }
+    #arcontactus-menu-items td > span{
+        display: block;
+        float: left;
+    }
+}

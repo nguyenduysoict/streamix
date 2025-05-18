@@ -1,0 +1,2829 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Us all-in-one button\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 07:57+0000\n"
+"PO-Revision-Date: 2021-11-09 07:58+0000\n"
+"Last-Translator: admin <and.maruschenko@gmail.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1.11"
+
+#: classes/ArContactUsListTable.php:40
+msgctxt "Column label"
+msgid "Page"
+msgstr ""
+
+#: classes/ArContactUsListTable.php:41
+msgctxt "Column label"
+msgid "User"
+msgstr "Usuario"
+
+#: classes/ArContactUsListTable.php:42
+msgctxt "Column label"
+msgid "Created at"
+msgstr "Creado el"
+
+#: classes/ArContactUsListTable.php:43
+msgctxt "Column label"
+msgid "Status"
+msgstr "Estado"
+
+#: classes/ArContactUsListTable.php:44
+msgctxt "Column label"
+msgid "Comments"
+msgstr ""
+
+#: classes/ArContactUsListTable.php:190
+msgctxt "List table bulk action"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: classes/ArContactUsListTable.php:191
+msgctxt "List table bulk action"
+msgid "Mark as new"
+msgstr "Marcar como nuevo"
+
+#: classes/ArContactUsListTable.php:192
+msgctxt "List table bulk action"
+msgid "Mark as done"
+msgstr "Marcar como hecho"
+
+#: classes/ArContactUsListTable.php:193
+msgctxt "List table bulk action"
+msgid "Mark as ignored"
+msgstr "Marcar como ignorado"
+
+#: classes/ArContactUsMigrate.php:16
+msgid "You must agree settings replacement alert"
+msgstr ""
+
+#: classes/ArContactUsUpdater.php:87 classes/ArContactUsUpdater.php:107
+msgid "Error deactivating plugin."
+msgstr ""
+
+#: classes/ArContactUsUpdater.php:96
+msgid "Error deactivating plugin. Please check your purchase code."
+msgstr ""
+
+#: classes/ArContactUsUpdater.php:125 classes/ArContactUsUpdater.php:145
+msgid "Error activating plugin."
+msgstr ""
+
+#: classes/ArContactUsAdmin.php:91
+msgid "Invalid security token. Please try again"
+msgstr ""
+
+#: classes/ArContactUsAdmin.php:266 views/admin/callback-requests.php:4
+#: views/admin/email-requests.php:4
+msgid "Settings"
+msgstr "Ajustes"
+
+#: classes/ArContactUsAdmin.php:298
+msgid "Settings updated"
+msgstr "Ajustes actualizados"
+
+#: classes/ArContactUsAdmin.php:308
+msgid "All data imported."
+msgstr ""
+
+#: classes/ArContactUsAdmin.php:316
+msgid "All settings migrated."
+msgstr ""
+
+#: classes/ArContactUsAdmin.php:335
+msgid "Contact-us button"
+msgstr "Botón de contacto"
+
+#: classes/ArContactUsAdmin.php:336 classes/ArContactUsAdmin.php:344
+#: classes/ArContactUsAdmin.php:347
+msgid "Callbacks"
+msgstr "Retrollamadas"
+
+#: classes/ArContactUsAdmin.php:337 views/admin/config.php:87
+#: views/admin/email-requests.php:2
+msgid "Email requests"
+msgstr ""
+
+#: classes/ArContactUsImport.php:19
+msgid "You must agree data loss alert"
+msgstr "Debe aceptar la alerta de pérdida de datos"
+
+#: classes/ArContactUsImport.php:23 classes/ArContactUsImport.php:28
+msgid "Import error! No file selected."
+msgstr "Importar error! No hay ningún archivo seleccionado."
+
+#: classes/ArContactUsImport.php:32
+msgid "Import error! Wrong file type."
+msgstr "Importar error! Tipo de archivo incorrecto."
+
+#: classes/ArContactUsImport.php:37
+msgid "Import error! Error uploading file!"
+msgstr "Importar error! Error al subir el archivo!"
+
+#: classes/ArContactUsImport.php:43
+msgid "Import error! File is empty or read error!"
+msgstr "Importar error! El archivo está vacío o hay un error de lectura!"
+
+#: classes/ArContactUsImport.php:47
+msgid "Import error! File is empty or wrong format!"
+msgstr "Importar error! El archivo está vacío o tiene un formato incorrecto!"
+
+#: controllers/ArContactUsFormController.php:203
+msgid "This field can not be removed"
+msgstr ""
+
+#: controllers/ArContractUsControllerAbstract.php:28
+#: controllers/ArContactUsRequestsController.php:496
+msgid "You dont have access to perform this action"
+msgstr ""
+
+#: controllers/ArContractUsControllerAbstract.php:36
+msgid "Invalid security token"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:208
+msgid "Link field is required"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:213
+msgid "Custom JS code field is required"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:218
+msgid "Integration field is required"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:223
+msgid "Form field is required"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:233
+#, php-format
+msgid "Content field is required \"%s\" language"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:238
+msgid "Content field is required"
+msgstr ""
+
+#: controllers/ArContactUsMenuController.php:247
+msgid "Icon is incorrect"
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:303
+msgid "Phone is incorrect!"
+msgstr "El teléfono es incorrecto!"
+
+#: controllers/ArContactUsRequestsController.php:367
+#: models/ArContactUsCallbackModel.php:164 views/admin/_email_requests.php:15
+#: views/admin/_requests.php:15 views/admin/partials/status.php:2
+msgid "New"
+msgstr "Nuevo"
+
+#: controllers/ArContactUsRequestsController.php:370
+#: models/ArContactUsCallbackModel.php:160 views/admin/_email_requests.php:18
+#: views/admin/_requests.php:18 views/admin/partials/status.php:6
+msgid "Done"
+msgstr "Hecho"
+
+#: controllers/ArContactUsRequestsController.php:373
+#: models/ArContactUsCallbackModel.php:162
+msgid "Ignore"
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:503
+#, php-format
+msgid "Entered value \"%s\" is not a valid email address"
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:538
+#, php-format
+msgid "Entered value \"%s\" is longer then %s symbols"
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:544
+#, php-format
+msgid "Entered value \"%s\" is not correct. Please use leters and numbers only"
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:624
+msgid "The secret parameter is missing. Please check your reCaptcha Secret."
+msgstr ""
+"Falta el parámetro secreto. Por favor, comprueba tu secreto de reCaptcha."
+
+#: controllers/ArContactUsRequestsController.php:625
+msgid ""
+"The secret parameter is invalid or malformed. Please check your reCaptcha "
+"Secret."
+msgstr ""
+"El parámetro secreto es inválido o malformado. Por favor, comprueba tu "
+"secreto de reCaptcha."
+
+#: controllers/ArContactUsRequestsController.php:626
+msgid "Bot activity detected! Empty captcha value."
+msgstr "Actividad del bot detectada! Valor de captcha vacío."
+
+#: controllers/ArContactUsRequestsController.php:627
+msgid "Bot activity detected! Captcha value is invalid."
+msgstr "Actividad del bot detectada! El valor de Captcha no es válido."
+
+#: controllers/ArContactUsRequestsController.php:628
+msgid "The request is invalid or malformed."
+msgstr "La solicitud no es válida o está mal formada."
+
+#: models/ArContactUsConfigPopup.php:91
+msgid "Callback popup settings"
+msgstr "Configuración de la ventana emergente de devolución de llamada"
+
+#: models/ArContactUsConfigPopup.php:108
+msgid ""
+"Please enter your phone number\n"
+"and we call you back soon"
+msgstr ""
+"Por favor, introduzca su número de teléfono\n"
+"y le llamaremos pronto"
+
+#: models/ArContactUsConfigPopup.php:109
+msgid "+XXX-XX-XXX-XX-XX"
+msgstr "+XXX-XX-XXX-XX-XX"
+
+#: models/ArContactUsConfigPopup.php:111
+msgid "We are calling you to phone"
+msgstr "Le llamamos al teléfono"
+
+#: models/ArContactUsConfigPopup.php:112
+msgid ""
+"Thank you.\n"
+"We are call you back soon."
+msgstr ""
+"Gracias.\n"
+"Le llamaremos pronto."
+
+#: models/ArContactUsConfigPopup.php:114
+msgid "Connection error. Please refresh the page and try again."
+msgstr ""
+"Error de conexión. Por favor, actualice la página e inténtelo de nuevo."
+
+#: models/ArContactUsConfigPopup.php:115
+msgid "Waiting for call"
+msgstr "Esperando una llamada"
+
+#: models/ArContactUsConfigPopup.php:116
+msgid "New callback request from phone: {phone}"
+msgstr "Nueva solicitud de devolución de llamada desde el teléfono: {phone}"
+
+#: models/ArContactUsConfigPopup.php:119 models/ArContactUsConfigForms.php:161
+#: models/ArContactUsConfigForms.php:173 models/ArContactUsConfigForms.php:273
+msgid "Enter your name"
+msgstr ""
+
+#: models/ArContactUsConfigPopup.php:121 models/ArContactUsConfigForms.php:215
+#: models/ArContactUsConfigForms.php:225 models/ArContactUsConfigForms.php:301
+msgid "I accept GDPR rules"
+msgstr ""
+
+#: models/ArContactUsConfigPopup.php:125 views/mail/callback.php:5
+msgid "New callback request"
+msgstr "Nueva solicitud de devolución de llamada"
+
+#: models/ArContactUsConfigPopup.php:126
+msgid "New callback request received from {site}. Please call to {phone}."
+msgstr ""
+"Nueva solicitud de devolución de llamada recibida de {site}. Por favor, "
+"llame al {phone}."
+
+#: models/ArContactUsConfigPopup.php:129
+msgid "New callback request received from {phone}"
+msgstr "Nueva solicitud de devolución de llamada recibida de {phone}"
+
+#: models/ArContactUsConfigPopup.php:130
+msgid "ReCaptcha validation error. Please try again."
+msgstr ""
+
+#: models/ArContactUsModelAbstract.php:349 models/ArContactUsFormEntity.php:184
+#: models/ArContactUsConfigModelAbstract.php:383
+#, php-format
+msgid "Incorrect \"%s\" value for \"%s\" language"
+msgstr ""
+
+#: models/ArContactUsModelAbstract.php:363
+#: models/ArContactUsConfigModel.php:1380
+#: models/ArContactUsConfigModel.php:1386 models/ArContactUsFormEntity.php:198
+#: models/ArContactUsConfigModelAbstract.php:353
+#: models/ArContactUsConfigModelAbstract.php:367
+#: models/ArContactUsConfigModelAbstract.php:397
+#, php-format
+msgid "Incorrect \"%s\" value"
+msgstr "Valor \"%s\" incorrecto"
+
+#: models/ArContactUsFormField.php:33 models/ArContactUsForm.php:94
+#: models/ArContactUsFormButton.php:26
+msgid "ID should contains only letters, numbers and symbols \"_\""
+msgstr ""
+
+#: models/ArContactUsFormField.php:93
+msgid "Field is required!"
+msgstr ""
+
+#: models/ArContactUsFormField.php:103 models/ArContactUsFormField.php:111
+msgid "Value is not valid"
+msgstr ""
+
+#: models/ArContactUsConfigMenuAbstract.php:69 views/admin/config.php:54
+msgid "Menu settings"
+msgstr "Ajustes del menú"
+
+#: models/ArContactUsConfigMobileButton.php:14
+#: models/ArContactUsConfigModel.php:291
+msgid "Left"
+msgstr "Izquierda"
+
+#: models/ArContactUsConfigMobileButton.php:15
+#: models/ArContactUsConfigModel.php:292
+msgid "Right"
+msgstr "Derecha"
+
+#: models/ArContactUsConfigForms.php:93
+msgid "Leave your phone number. We will call you back soon!"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:96
+msgid "Callback request sent! We will contact you soon."
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:97
+msgid "Error sending callback request! Please try again!"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:160 models/ArContactUsConfigForms.php:172
+#: models/ArContactUsConfigForms.php:272
+msgid "Your name"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:165 models/ArContactUsConfigForms.php:177
+#: models/ArContactUsConfigForms.php:276 models/ArContactUsForm.php:245
+msgid "Name"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:184
+msgid "Your phone number"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:185
+msgid "Enter your phone number"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:190
+msgid "Phone"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:200 models/ArContactUsConfigForms.php:281
+msgid "Your email"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:201 models/ArContactUsConfigForms.php:282
+msgid "Enter your email"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:205 models/ArContactUsConfigForms.php:286
+#: models/ArContactUsForm.php:246 views/admin/_field_modal.php:138
+msgid "Email"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:238 models/ArContactUsConfigForms.php:311
+#: views/admin/_button_modal.php:30
+msgid "Submit"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:252
+msgid "Write a email to us!"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:255
+msgid "Email sent! We will contact you soon."
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:256
+msgid "Error sending email! Please try again!"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:291
+msgid "Your message"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:292
+msgid "Enter your message"
+msgstr ""
+
+#: models/ArContactUsConfigForms.php:296 models/ArContactUsConfigModel.php:784
+#: views/admin/config.php:187 views/admin/config.php:220
+#: views/admin/_prompt_table.php:5 views/admin/_prompt_table.php:46
+msgid "Message"
+msgstr "Mensaje"
+
+#: models/ArContactUsConfigPromptAbstract.php:18 views/admin/config.php:68
+msgid "Prompt settings"
+msgstr "Ajustes rápidos"
+
+#: models/ArContactUsForm.php:247
+msgid "Phonenumber"
+msgstr ""
+
+#: models/ArContactUsForm.php:248
+msgid "Contact"
+msgstr ""
+
+#: models/ArContactUsForm.php:249 views/admin/_item_modal.php:22
+#: views/admin/_item_modal.php:55 views/admin/_items_table.php:6
+#: views/admin/_items_table.php:46 views/admin/_items_table.php:146
+msgid "Title"
+msgstr "Título"
+
+#: models/ArContactUsForm.php:250
+msgid "Website"
+msgstr ""
+
+#: models/ArContactUsForm.php:251
+msgid "Company"
+msgstr ""
+
+#: models/ArContactUsForm.php:252
+msgid "Address"
+msgstr ""
+
+#: models/ArContactUsForm.php:253
+msgid "City"
+msgstr ""
+
+#: models/ArContactUsForm.php:254
+msgid "State"
+msgstr ""
+
+#: models/ArContactUsForm.php:255
+msgid "Country"
+msgstr ""
+
+#: models/ArContactUsForm.php:256
+msgid "Description"
+msgstr ""
+
+#: models/ArContactUsConfigButtonAbstract.php:27 views/admin/_forms.php:86
+#: views/admin/config.php:51
+msgid "Button settings"
+msgstr "Ajustes de botón"
+
+#: models/ArContactUsConfigButtonAbstract.php:48
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#: models/ArContactUsConfigModel.php:76
+msgid "bounceIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:77
+msgid "bounceInDown"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:78
+msgid "bounceInLeft"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:79
+msgid "bounceInRight"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:80
+msgid "bounceInUp"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:87
+msgid "fadeIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:88
+msgid "fadeInDown"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:89
+msgid "fadeInDownBig"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:90
+msgid "fadeInLeft"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:91
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:92
+msgid "fadeInRight"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:93
+msgid "fadeInRightBig"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:94
+msgid "fadeInUp"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:95
+msgid "fadeInUpBig"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:102
+msgid "flip"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:103
+msgid "flipInX"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:104
+msgid "flipInY"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:111
+msgid "lightSpeedIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:118
+msgid "rotateIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:119
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:120
+msgid "rotateInDownRight"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:121
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:122
+msgid "rotateInUpRight"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:129
+msgid "slideInUp"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:130
+msgid "slideInDown"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:131
+msgid "slideInLeft"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:132
+msgid "slideInRight"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:139
+msgid "zoomIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:140
+msgid "zoomInDown"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:141
+msgid "zoomInLeft"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:142
+msgid "zoomInRight"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:143
+msgid "zoomInUp"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:150
+msgid "rollIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:159 views/admin/_form_modal.php:35
+msgid "Text only"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:160
+msgid "Icon left"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:161
+msgid "Icon center"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:168
+msgid "Built-in SVG icon"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:170 models/ArContactUsConfigModel.php:317
+#: views/admin/_item_modal.php:114 views/admin/_form_modal.php:67
+#: views/admin/_form_modal.php:140
+msgid "Uploaded image"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:177
+msgid "Popup"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:178
+msgid "Sidebar"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:185
+msgid "ScaleIn"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:186
+msgid "ScaleOut"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:187
+msgid "FadeInDown"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:188
+msgid "FadeInUp"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:195
+msgid "Elastic"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:196
+msgid "Bubble"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:203
+msgid "Regular"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:204
+msgid "Icons only"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:211
+msgid "Default"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:212
+msgid "Personal"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:219 models/ArContactUsConfigModel.php:299
+msgid "None"
+msgstr "Ninguno"
+
+#: models/ArContactUsConfigModel.php:220
+msgid "Down to up"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:221
+msgid "Up to down"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:222
+msgid "From aside"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:256
+msgid "Menu"
+msgstr "Menú"
+
+#: models/ArContactUsConfigModel.php:257
+msgid "Callback only"
+msgstr "Sólo devolución de llamada"
+
+#: models/ArContactUsConfigModel.php:258
+msgid "Single menu item"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:265
+msgid "Skype user"
+msgstr "Usuario de Skype"
+
+#: models/ArContactUsConfigModel.php:266
+msgid "Skype bot"
+msgstr "Bot de Skype"
+
+#: models/ArContactUsConfigModel.php:273 models/ArContactUsConfigModel.php:282
+msgid "Large"
+msgstr "Largo"
+
+#: models/ArContactUsConfigModel.php:274 models/ArContactUsConfigModel.php:284
+msgid "Small"
+msgstr "Pequeño"
+
+#: models/ArContactUsConfigModel.php:281
+msgid "Huge"
+msgstr "Enorme"
+
+#: models/ArContactUsConfigModel.php:283
+msgid "Medium"
+msgstr "Medio"
+
+#: models/ArContactUsConfigModel.php:300
+msgid "Solid"
+msgstr "Sólido"
+
+#: models/ArContactUsConfigModel.php:301
+msgid "Dashed"
+msgstr "Guiones"
+
+#: models/ArContactUsConfigModel.php:308
+msgid "Icon in circle"
+msgstr "Icono en círculo"
+
+#: models/ArContactUsConfigModel.php:309
+msgid "Icon without circle"
+msgstr "Icono sin círculo"
+
+#: models/ArContactUsConfigModel.php:316 views/admin/_item_modal.php:112
+#: views/admin/_form_modal.php:65 views/admin/_form_modal.php:138
+msgid "Built-in SVG"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:324
+msgid "Above the button"
+msgstr "Sobre el botón"
+
+#: models/ArContactUsConfigModel.php:325
+msgid "Side of the button"
+msgstr "Lado del botón"
+
+#: models/ArContactUsConfigModel.php:332
+msgid "When menu is opened"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:333
+msgid "When page is loaded"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:695
+msgid "Enable on mobile"
+msgstr "Habilitar en el móvil"
+
+#: models/ArContactUsConfigModel.php:696
+msgid "Enable widget on pages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:697
+msgid "Disable widget on pages"
+msgstr "Desactivar el widget en las páginas"
+
+#: models/ArContactUsConfigModel.php:698
+msgid "Sandbox mode"
+msgstr "Modo sandbox"
+
+#: models/ArContactUsConfigModel.php:699
+msgid "Allowed IPs"
+msgstr "IPs permitidas"
+
+#: models/ArContactUsConfigModel.php:700
+msgid "Include FontAwesome CSS file"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:701
+msgid "Minify plugin JS output"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:702
+msgid "Disable plugin initialization"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:703
+msgid "Hide main widget button after page loads"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:704
+msgid "Disable jQuery initialization"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:705
+msgid "Delay plugin initialization"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:706
+msgid "Google Analytics account ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:707
+msgid "Include Google Analytics SDK script"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:708
+msgid "Create new Google Analytics tracker"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:709
+msgid "Disable \"Callback\" admin menu item"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:710
+msgid "Disable \"Email requests\" admin menu item"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:711
+msgid "Access to callback list"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:712
+msgid "Font"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:713
+msgid "Custom CSS rules"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:715
+msgid "Button mode"
+msgstr "Modo botón"
+
+#: models/ArContactUsConfigModel.php:716 views/admin/_item_modal.php:202
+msgid "Show online badge"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:717
+msgid "Button icon type"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:718 models/ArContactUsConfigModel.php:719
+#: views/admin/_form_modal.php:122 views/admin/_form_modal.php:149
+#: views/admin/_form_modal.php:184
+msgid "Button icon"
+msgstr "Icono del Botón"
+
+#: models/ArContactUsConfigModel.php:720
+msgid "Color theme"
+msgstr "Color del tema"
+
+#: models/ArContactUsConfigModel.php:721
+msgid "Button size"
+msgstr "Tamaño del botón"
+
+#: models/ArContactUsConfigModel.php:722
+msgid "Button icon size"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:724 models/ArContactUsConfigModel.php:736
+#: views/admin/_prompt_table.php:4 views/admin/_prompt_table.php:45
+#: views/admin/_items_table.php:4 views/admin/_items_table.php:22
+#: views/admin/_items_table.php:144
+msgid "Position"
+msgstr "Posición"
+
+#: models/ArContactUsConfigModel.php:725
+msgid "Appearing animation"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:726
+msgid "StoreFront button position number"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:727
+msgid "X-axis offset"
+msgstr "Desplazamiento del eje X"
+
+#: models/ArContactUsConfigModel.php:728
+msgid "Y-axis offset"
+msgstr "Desplazamiento del eje Y"
+
+#: models/ArContactUsConfigModel.php:729
+msgid "Pulsate speed"
+msgstr "Velocidad de pulsación"
+
+#: models/ArContactUsConfigModel.php:730
+msgid "Icon slider speed"
+msgstr "Velocidad del deslizador de iconos"
+
+#: models/ArContactUsConfigModel.php:731
+msgid "Icon slider animation pause"
+msgstr "Pausa en la animación de la barra deslizante de iconos"
+
+#: models/ArContactUsConfigModel.php:732
+msgid "Text"
+msgstr "Texto"
+
+#: models/ArContactUsConfigModel.php:733
+msgid "Enable button drag"
+msgstr "Habilitar arrastre de botones"
+
+#: models/ArContactUsConfigModel.php:735 models/ArContactUsConfigModel.php:853
+#: models/ArContactUsConfigModel.php:854 models/ArContactUsConfigModel.php:855
+#: models/ArContactUsConfigModel.php:856 models/ArContactUsConfigModel.php:865
+#: models/ArContactUsConfigModel.php:870 models/ArContactUsConfigModel.php:877
+#: models/ArContactUsConfigModel.php:883 models/ArContactUsConfigModel.php:890
+#: models/ArContactUsConfigModel.php:900 models/ArContactUsConfigModel.php:906
+#: models/ArContactUsConfigModel.php:912 models/ArContactUsConfigModel.php:918
+#: models/ArContactUsConfigModel.php:922 models/ArContactUsConfigModel.php:928
+#: models/ArContactUsConfigModel.php:934 models/ArContactUsConfigModel.php:941
+#: models/ArContactUsConfigModel.php:948 models/ArContactUsConfigModel.php:954
+msgid "Enable"
+msgstr "Activar"
+
+#: models/ArContactUsConfigModel.php:737
+msgid "Delay first message"
+msgstr "Retrasar el primer mensaje"
+
+#: models/ArContactUsConfigModel.php:738
+msgid "Loop mesages"
+msgstr "Mensajes de bucle"
+
+#: models/ArContactUsConfigModel.php:739
+msgid "Close last message"
+msgstr "Cerrar el último mensaje"
+
+#: models/ArContactUsConfigModel.php:740
+msgid "Typing time"
+msgstr "Tiempo de mecanografía"
+
+#: models/ArContactUsConfigModel.php:741
+msgid "Message time"
+msgstr "Hora del mensaje"
+
+#: models/ArContactUsConfigModel.php:742
+msgid "Show after closed"
+msgstr "Mostrar después del cierre"
+
+#: models/ArContactUsConfigModel.php:744
+msgid "Show welcome messages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:745
+msgid "Use same settings as prompt messages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:746 views/admin/config.php:71
+msgid "Welcome messages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:748
+msgid "Menu style"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:749
+msgid "Popup animation"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:750
+msgid "Sidebar animation"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:751
+msgid "Menu background style"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:752
+msgid "Menu layout"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:753
+msgid "Icons block title"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:755
+msgid "Items style"
+msgstr "Estilo de los items"
+
+#: models/ArContactUsConfigModel.php:756
+msgid "Items animation"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:757
+msgid "Items border"
+msgstr "Borde de items"
+
+#: models/ArContactUsConfigModel.php:758
+msgid "Items border color"
+msgstr "Color del borde de los items"
+
+#: models/ArContactUsConfigModel.php:759
+msgid "Show header"
+msgstr "Mostrar encabezado"
+
+#: models/ArContactUsConfigModel.php:760
+msgid "Header text"
+msgstr "Texto de la cabecera"
+
+#: models/ArContactUsConfigModel.php:761
+msgid "Show close button in header"
+msgstr "Mostrar el botón de cerrar en el encabezado"
+
+#: models/ArContactUsConfigModel.php:762
+msgid "Item subtitle color"
+msgstr "Color de los subtítulos del elemento"
+
+#: models/ArContactUsConfigModel.php:763
+msgid "Hovered item subtitle color"
+msgstr "Color de los subtítulos de los artículos cubiertos"
+
+#: models/ArContactUsConfigModel.php:764
+msgid "Close button background color"
+msgstr "Color de fondo del botón de cerrar"
+
+#: models/ArContactUsConfigModel.php:765
+msgid "Close button icon color"
+msgstr "Cerrar color del icono del botón"
+
+#: models/ArContactUsConfigModel.php:766
+msgid "Shadow size"
+msgstr "Tamaño de la sombra"
+
+#: models/ArContactUsConfigModel.php:767
+msgid "Shadow opacity"
+msgstr "Opacidad del sombreado"
+
+#: models/ArContactUsConfigModel.php:768
+msgid "Open menu automatically"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:769 views/admin/_form_modal.php:28
+msgid "Header layout"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:770 views/admin/_form_modal.php:59
+msgid "Header icon type"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:771 models/ArContactUsConfigModel.php:772
+#: views/admin/_form_modal.php:76 views/admin/_form_modal.php:111
+msgid "Header icon"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:773
+msgid "Header subtitle"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:775
+msgid "Menu size"
+msgstr "Tamaño del menú"
+
+#: models/ArContactUsConfigModel.php:776
+msgid "Menu width"
+msgstr "Ancho del menú"
+
+#: models/ArContactUsConfigModel.php:777
+msgid "Menu background color"
+msgstr "Color de fondo del Menú"
+
+#: models/ArContactUsConfigModel.php:778
+msgid "Item title color"
+msgstr "Color del título del artículo"
+
+#: models/ArContactUsConfigModel.php:779
+msgid "Hovered item background color"
+msgstr "Color de fondo del artículo cubierto"
+
+#: models/ArContactUsConfigModel.php:780
+msgid "Hovered item title color"
+msgstr "Color del título del artículo cubierto"
+
+#: models/ArContactUsConfigModel.php:782
+msgid "Popup desktop width"
+msgstr "Ancho del escritorio de la ventana emergente"
+
+#: models/ArContactUsConfigModel.php:783
+msgid "Countdown"
+msgstr "Cuenta atrás"
+
+#: models/ArContactUsConfigModel.php:785
+msgid "Phone field placeholder"
+msgstr "Marcador de posición de campo de teléfono"
+
+#: models/ArContactUsConfigModel.php:786
+msgid "Phone mask"
+msgstr "Máscara telefónica"
+
+#: models/ArContactUsConfigModel.php:787
+msgid "Include jquery.maskedinput.min.js"
+msgstr "Incluir jquery.maskedinput.min.js"
+
+#: models/ArContactUsConfigModel.php:788
+msgid "Enable phone mask"
+msgstr "Habilitar la máscara del teléfono"
+
+#: models/ArContactUsConfigModel.php:789
+msgid "Proccess message"
+msgstr "Mensaje de proceso"
+
+#: models/ArContactUsConfigModel.php:790 views/admin/_form_modal.php:204
+msgid "Success message"
+msgstr "Mensaje de éxito"
+
+#: models/ArContactUsConfigModel.php:791
+msgid "Close callback popup timeout"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:792 views/admin/_form_modal.php:215
+msgid "Fail message"
+msgstr "Mensaje de error"
+
+#: models/ArContactUsConfigModel.php:793
+msgid "Button title"
+msgstr "Título del botón"
+
+#: models/ArContactUsConfigModel.php:794
+msgid "Enable Onesignal integration"
+msgstr "Habilitar la integración de una señal"
+
+#: models/ArContactUsConfigModel.php:795
+msgid "Onesignal APP ID"
+msgstr "ID de APP de una sola señal"
+
+#: models/ArContactUsConfigModel.php:796
+msgid "Onesignal Api Key"
+msgstr "Tecla Api de una señal"
+
+#: models/ArContactUsConfigModel.php:797 views/admin/_form_modal.php:359
+msgid "Webpush message title"
+msgstr "Título del mensaje Webpush"
+
+#: models/ArContactUsConfigModel.php:798
+msgid "Webpush message text"
+msgstr "Texto del mensaje Webpush"
+
+#: models/ArContactUsConfigModel.php:801
+msgid "Show Name field"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:803
+msgid "Validate name value"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:804
+msgid "Max lenght for name value"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:805
+msgid "Enable only laters, numbers and spaces in name field."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:807
+msgid "Name field required"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:808
+msgid "Name field title"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:809
+msgid "Name field placeholder"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:811
+msgid "Show email field"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:812
+msgid "Email field required"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:813
+msgid "Email field title"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:814
+msgid "Email field placeholder"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:816
+msgid "Show GDPR checkbox"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:817
+msgid "GDPR checkbox title"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:818
+msgid "Send email"
+msgstr "Enviar email"
+
+#: models/ArContactUsConfigModel.php:819 views/admin/_form_modal.php:245
+msgid "Email list"
+msgstr "Lista de correo"
+
+#: models/ArContactUsConfigModel.php:820
+msgid "Integrate with Google reCaptcha"
+msgstr "Integración con Google reCaptcha"
+
+#: models/ArContactUsConfigModel.php:821
+msgid "Google reCaptcha Site Key"
+msgstr "Llave de sitio Google reCaptcha"
+
+#: models/ArContactUsConfigModel.php:822
+msgid "Google reCaptcha Secret"
+msgstr "ReCAPTCHA - clave secreta"
+
+#: models/ArContactUsConfigModel.php:823
+msgid "Initialize Google reCaptcha"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:824
+msgid "Hide Google reCaptcha logo"
+msgstr "Ocultar el logotipo de Google reCaptcha"
+
+#: models/ArContactUsConfigModel.php:825
+msgid "reCaptcha error message"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:826
+msgid "reCaptcha treshold value"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:828
+msgid "Integrate with Perfex CRM"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:829
+msgid "Perfex CRM API endpoint URL"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:830
+msgid "Perfex CRM API token"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:832
+msgid "Email logo"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:833
+msgid "Callback request email subject"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:834
+msgid "Callback request email body"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:835
+msgid "Direct email subject"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:836
+msgid "Direct email body"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:840
+msgid "Widget"
+msgstr "Widget"
+
+#: models/ArContactUsConfigModel.php:841 models/ArContactUsConfigModel.php:844
+msgid "Site ID"
+msgstr "ID del Sitio"
+
+#: models/ArContactUsConfigModel.php:842
+msgid "Send customer info to Tawk.to"
+msgstr "Enviar información del cliente a Tawk.to"
+
+#: models/ArContactUsConfigModel.php:851
+msgid "App ID"
+msgstr "App ID"
+
+#: models/ArContactUsConfigModel.php:858
+msgid "Facebook page ID"
+msgstr "Pagina ID de Facebook"
+
+#: models/ArContactUsConfigModel.php:859
+msgid "Initilize Facebook SDK"
+msgstr "Iniciar el SDK de Facebook"
+
+#: models/ArContactUsConfigModel.php:860
+msgid "Color scheme"
+msgstr "Esquema de color"
+
+#: models/ArContactUsConfigModel.php:861 views/admin/_items_table.php:10
+#: views/admin/_items_table.php:110 views/admin/_items_table.php:150
+msgid "Language"
+msgstr "Idioma"
+
+#: models/ArContactUsConfigModel.php:864
+msgid "VK page ID"
+msgstr "ID de página VK"
+
+#: models/ArContactUsConfigModel.php:869
+msgid "Widget ID"
+msgstr "ID de widget"
+
+#: models/ArContactUsConfigModel.php:871
+msgid "Send customer info to Zendesk"
+msgstr "Enviar información de clientes a Zendesk"
+
+#: models/ArContactUsConfigModel.php:875
+msgid "Skype ID/Microsoft App ID"
+msgstr "ID de Skype/Identificación de aplicaciones de Microsoft"
+
+#: models/ArContactUsConfigModel.php:876
+msgid "Set receiver"
+msgstr "Fijar el receptor"
+
+#: models/ArContactUsConfigModel.php:878
+msgid "Message color"
+msgstr "Color del mensaje"
+
+#: models/ArContactUsConfigModel.php:882
+msgid "Account ID"
+msgstr "ID de cuenta"
+
+#: models/ArContactUsConfigModel.php:884
+msgid "Welcome message"
+msgstr "Mensaje de bienvenida"
+
+#: models/ArContactUsConfigModel.php:885 models/ArContactUsConfigModel.php:893
+msgid "Height"
+msgstr "Altura"
+
+#: models/ArContactUsConfigModel.php:886 models/ArContactUsConfigModel.php:892
+msgid "Width"
+msgstr "Ancho"
+
+#: models/ArContactUsConfigModel.php:891
+msgid "Installation URL"
+msgstr "URL de instalación"
+
+#: models/ArContactUsConfigModel.php:894
+msgid "Popup width"
+msgstr "Ancho de la ventana emergente"
+
+#: models/ArContactUsConfigModel.php:895
+msgid "Popup height"
+msgstr "Altura de la Ventana Emergente"
+
+#: models/ArContactUsConfigModel.php:901
+msgid "Smartsupp Key"
+msgstr "Clave Smartsupp"
+
+#: models/ArContactUsConfigModel.php:902
+msgid "Send customer info to smartsupp"
+msgstr "Enviar información del cliente a smartsupp"
+
+#: models/ArContactUsConfigModel.php:907
+msgid "License ID"
+msgstr "ID de licencia"
+
+#: models/ArContactUsConfigModel.php:908
+msgid "Send customer info to LiveChat"
+msgstr "Enviar información de clientes a LiveChat"
+
+#: models/ArContactUsConfigModel.php:913
+msgid "Script URL"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:917
+msgid "LiveZilla URL"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:923
+msgid "Public key"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:924
+msgid "Send customer info to Tidio"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:929
+msgid "Jivosite ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:930
+msgid "Send customer info to Jivosite"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:935
+msgid "Zoho SalesIQ widget ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:936
+msgid "Zoho SalesIQ host"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:937
+msgid "Send customer info to SalesIQ"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:942
+msgid "FreshChat token"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:943
+msgid "FreshChat host"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:944
+msgid "Send customer info to FreshChat"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:949
+msgid "PhpLive widget URL"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:950
+msgid "Send customer info to PhpLive"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:955
+msgid "Paldesk API Key"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:956
+msgid "Send customer info to Paldesk"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:959
+msgid "Enable Twilio integration"
+msgstr "Habilitar la integración con Twilio"
+
+#: models/ArContactUsConfigModel.php:960
+msgid "Twilio API Key"
+msgstr "Twilio API Key"
+
+#: models/ArContactUsConfigModel.php:961
+msgid "Twilio Auth Token"
+msgstr "Twilio Auth Token"
+
+#: models/ArContactUsConfigModel.php:962
+msgid "Twilio phone"
+msgstr "Teléfono Twilio"
+
+#: models/ArContactUsConfigModel.php:963 views/admin/_form_modal.php:273
+msgid "Send SMS to this phone"
+msgstr "Enviar SMS a este teléfono"
+
+#: models/ArContactUsConfigModel.php:964 views/admin/_form_modal.php:287
+msgid "SMS text"
+msgstr "Texto SMS"
+
+#: models/ArContactUsConfigModel.php:966
+msgid "Enable telegram integration"
+msgstr "Habilitar la integración de telegramas"
+
+#: models/ArContactUsConfigModel.php:967
+msgid "Telegram bot token"
+msgstr "Token de bot de telegrama"
+
+#: models/ArContactUsConfigModel.php:968 views/admin/_form_modal.php:316
+msgid "Telegram chat id"
+msgstr "Id. de chat de telegrama"
+
+#: models/ArContactUsConfigModel.php:969 views/admin/_form_modal.php:330
+msgid "Telegram message"
+msgstr "Mensaje de telegrama"
+
+#: models/ArContactUsConfigModel.php:976 models/ArContactUsConfigModel.php:977
+#: models/ArContactUsConfigModel.php:981 models/ArContactUsConfigModel.php:986
+#: models/ArContactUsConfigModel.php:987 models/ArContactUsConfigModel.php:989
+#: models/ArContactUsConfigModel.php:990 models/ArContactUsConfigModel.php:991
+#: models/ArContactUsConfigModel.php:992 models/ArContactUsConfigModel.php:993
+#: models/ArContactUsConfigModel.php:994 models/ArContactUsConfigModel.php:995
+#: models/ArContactUsConfigModel.php:999
+msgid "px"
+msgstr "px"
+
+#: models/ArContactUsConfigModel.php:978 models/ArContactUsConfigModel.php:979
+#: models/ArContactUsConfigModel.php:980 models/ArContactUsConfigModel.php:983
+#: models/ArContactUsConfigModel.php:984 models/ArContactUsConfigModel.php:985
+#: models/ArContactUsConfigModel.php:997 models/ArContactUsConfigModel.php:998
+msgid "ms"
+msgstr "ms"
+
+#: models/ArContactUsConfigModel.php:982 models/ArContactUsConfigModel.php:996
+msgid "seconds"
+msgstr "segundos"
+
+#: models/ArContactUsConfigModel.php:988
+msgid "minutes"
+msgstr "minutos"
+
+#: models/ArContactUsConfigModel.php:1225
+msgid "Set to 0 to disable countdown."
+msgstr "Ajústelo a 0 para desactivar la cuenta atrás."
+
+#: models/ArContactUsConfigModel.php:1226
+msgid ""
+"If you have already included FontAwesome CSS file, please disable this option"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1227
+msgid ""
+"If Google Analytics script is already added to your page or Google "
+"TagManager, please disable this option."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1228
+msgid ""
+"Enter \"inherit\" to use theme font-family. Leave empty to use default font."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1230
+#, php-format
+msgid "One IP address per line. Your current IP %s"
+msgstr "Una dirección IP por línea. Su IP actual %s"
+
+#: models/ArContactUsConfigModel.php:1231
+msgid "If enabled, module will be shown from allowed IPs only."
+msgstr ""
+"Si está habilitado, el módulo sólo se mostrará desde las IPs permitidas."
+
+#: models/ArContactUsConfigModel.php:1233
+msgid ""
+"To initialize plugin manually please call following JavaScript code when you "
+"need to initilize plugin contactUs.init(arcuOptions);"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1234
+msgid "This is experemental feature!"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1235
+msgid "Type 0 to initialize plugin without delay"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1236
+msgid ""
+"Enable this option only if you have already included jQuery to your site"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1238
+msgid "One email per line."
+msgstr "Un correo electrónico por línea."
+
+#: models/ArContactUsConfigModel.php:1239
+msgid ""
+"You can use Google reCaptcha to prevent bots from sending callback requests. "
+"This module uses invisible reCaptcha V3"
+msgstr ""
+"Puedes utilizar Google reCaptcha para evitar que los robots envíen "
+"solicitudes de devolución de llamada. Este módulo utiliza reCaptcha V3 "
+"invisible"
+
+#: models/ArContactUsConfigModel.php:1240
+msgid "You can get your Key here https://g.co/recaptcha/v3"
+msgstr "Usted puede obtener su Llave aquí https://g.co/recaptcha/v3"
+
+#: models/ArContactUsConfigModel.php:1241
+msgid "You can get your Secret here https://g.co/recaptcha/v3"
+msgstr "Puedes obtener tu Secreto aquí https://g.co/recaptcha/v3"
+
+#: models/ArContactUsConfigModel.php:1242
+msgid ""
+"Please disable this option if you already have included Google reCaptcha "
+"script on your pages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1243
+msgid "From 0 to 1. Recomended value is 0.6"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1244
+msgid "This message will be shown if reCaptcha is not valid"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1245
+msgid ""
+"You can enable widget on several pages. You can use relative or absolute URL."
+" * symbol means any character. One URL per line. Leave this field blank to "
+"enable widget on all pages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1246
+msgid ""
+"You can disable widget on several pages. You can use relative or absolute "
+"URL. * symbol means any character. One URL per line."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1247
+msgid "Type 0 here to disable button animation"
+msgstr "Escriba 0 aquí para desactivar la animación del botón"
+
+#: models/ArContactUsConfigModel.php:1248
+msgid "Pause beetwen slide icon animations loop"
+msgstr "Pausa entre el bucle de animaciones de íconos de diapositivas"
+
+#: models/ArContactUsConfigModel.php:1249
+msgid "Shadow size applied to menu, callback form and prompt messages"
+msgstr ""
+"Tamaño de las sombras aplicadas al menú, al formulario de devolución de "
+"llamada y a los mensajes de aviso"
+
+#: models/ArContactUsConfigModel.php:1250
+msgid "From 0 to 1"
+msgstr "De 0 a 1"
+
+#: models/ArContactUsConfigModel.php:1252
+#: models/ArContactUsConfigModel.php:1253
+#: models/ArContactUsConfigModel.php:1254
+msgid ""
+"{phone} token will be replaced to phone entered in callback request form. "
+"{site} token will be replaced to site domain. {name} token will be replaced "
+"to customer name. {referer} token will be replaced to page url which used "
+"for callback request. {email} token will be replaced to customer email "
+"address (if filled)."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1256
+msgid "Your Twilio phone in international format"
+msgstr "Su teléfono Twilio en formato internacional"
+
+#: models/ArContactUsConfigModel.php:1257 views/admin/_form_modal.php:274
+msgid "SMS message will be send to this phone number. Use international format"
+msgstr ""
+"Se enviará un mensaje SMS a este número de teléfono. Usar formato "
+"internacional"
+
+#: models/ArContactUsConfigModel.php:1259 views/admin/_form_modal.php:288
+#: views/admin/_form_modal.php:331 views/admin/_form_modal.php:360
+#: views/admin/_form_modal.php:374
+msgid ""
+"You can use ID of field as variable. For example: {phone} will be replaced "
+"to Phone field value. Also you can use built-in variables: {site} token will "
+"be replaced to site domain, {referer} token will be replaced to page url "
+"which used for callback request."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1260
+msgid ""
+"You can use ID of field as variable. For example: {phone} will be replaced "
+"to Phone field value. Also you can use built-in variables: {site} token will "
+"be replaced to site domain, {referer} token will be replaced to page url "
+"which used for direct email."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1262
+msgid "SDK locale. For example: en_EN, ru_RU, fr_FR. Default: en_EN"
+msgstr ""
+"Localización del SDK. Por ejemplo: en_EN, ru_RU, fr_FR. Predeterminado: en_EN"
+
+#: models/ArContactUsConfigModel.php:1263
+msgid ""
+"You can disable Facebook SDK initialization to avoid conflicts with other "
+"modules that uses Facebook SDK"
+msgstr ""
+"Puedes desactivar la inicialización del SDK de Facebook para evitar "
+"conflictos con otros módulos que utilizan el SDK de Facebook"
+
+#: models/ArContactUsConfigModel.php:1264 views/admin/_field_modal.php:116
+msgid "<b>X</b> means any number"
+msgstr "<b>X</b> significa cualquier número"
+
+#: models/ArContactUsConfigModel.php:1265
+msgid ""
+"Please toggle off this option if you already using maskedinput.js on your "
+"site"
+msgstr ""
+"Por favor, desactive esta opción si ya está usando maskedinput.js en su sitio"
+
+#: models/ArContactUsConfigModel.php:1266
+msgid ""
+"You need to enable \"Community messages\" for your page in your page "
+"administration section"
+msgstr ""
+"Necesitas habilitar \"Mensajes de comunidad\" para tu página en la sección "
+"de administración de páginas"
+
+#: models/ArContactUsConfigModel.php:1268
+msgid ""
+"To create new bot please write to bot t.me/botFather. Write /start then "
+"/newbot and follow instructions"
+msgstr ""
+"Para crear un nuevo bot por favor escriba a bot t.me/botFather. Escribir "
+"/iniciar y luego /newbot y seguir las instrucciones"
+
+#: models/ArContactUsConfigModel.php:1269 views/admin/_form_modal.php:317
+msgid ""
+"Messages will be received to this chatID. To know your chatID please write "
+"to bot t.me/userinfobot. You can set few chatID comma-separated. Please note "
+"that each chatID must be subscribed to your bot to receive messages from the "
+"bot. To subscribe please find your bot in telegram and write /start to the "
+"bot."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1270
+msgid ""
+"This message will be received to your telegram. {phone} token will be "
+"replaced to phone entered in callback request form. {name} token will be "
+"replaced to customer name. {referer} token will be replaced to page url "
+"which used for callback request. {email} token will be replaced to customer "
+"email address (if filled)."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1272
+msgid "Zopim or Zendesk chat Widget ID"
+msgstr "Zopim o Zendesk chat Widget ID"
+
+#: models/ArContactUsConfigModel.php:1273
+msgid ""
+"Show prompt messages again if visitor has closed prompts after this interval "
+"(in minutes). Type 0 if you want to show prompts on next session. Type -1 to "
+"show prompts after page reload"
+msgstr ""
+"Mostrar mensajes de aviso de nuevo si el visitante ha cerrado los avisos "
+"después de este intervalo (en minutos). Escriba 0 si desea mostrar las "
+"indicaciones en la próxima sesión. Escriba -1 para mostrar mensajes después "
+"de recargar la página"
+
+#: models/ArContactUsConfigModel.php:1274
+msgid "Each message from new line"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1275
+msgid "Default 300. Type 0 for auto-width"
+msgstr "Por defecto 300. Tipo 0 para auto-ancho"
+
+#: models/ArContactUsConfigModel.php:1276
+msgid ""
+"If positive, callback popup will be closed after this interval. Leave 0 "
+"value if your want disable this feature."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1278
+msgid ""
+"Menu will be opened automatically with delay after plugin initialization. "
+"Type 0 to disable this feature."
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1280
+msgid ""
+"https://salesiq.zoho.eu or https://salesiq.zoho.com without leading slash"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1287
+msgid "Tawk.to integration"
+msgstr "Tawk.to integración"
+
+#: models/ArContactUsConfigModel.php:1289
+msgid "Crisp integration"
+msgstr "Integracion Crisp"
+
+#: models/ArContactUsConfigModel.php:1291
+msgid "Intercom integration"
+msgstr "Integración Intercom"
+
+#: models/ArContactUsConfigModel.php:1293
+#: models/ArContactUsConfigLiveChat.php:148
+msgid "Facebook customer chat"
+msgstr "Chat de clientes en Facebook"
+
+#: models/ArContactUsConfigModel.php:1295
+#: models/ArContactUsConfigLiveChat.php:151
+msgid "VK community messages"
+msgstr "Mensajes de la comunidad VK"
+
+#: models/ArContactUsConfigModel.php:1297
+#: models/ArContactUsConfigLiveChat.php:154
+msgid "Zendesk chat"
+msgstr "Chat Zendesk"
+
+#: models/ArContactUsConfigModel.php:1299
+msgid "Skype Web Control"
+msgstr "Control web de Skype"
+
+#: models/ArContactUsConfigModel.php:1319
+msgid "Zoho SalesIQ chat widget"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1320
+msgid "LiveZilla chat widget"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1321
+#: models/ArContactUsConfigLiveChat.php:160
+msgid "Zalo chat widget"
+msgstr "Widget de chat en Zalo"
+
+#: models/ArContactUsConfigModel.php:1322
+msgid "Facebook customer chat requires HTTPS for full functionality"
+msgstr ""
+"El chat de clientes de Facebook requiere HTTPS para una funcionalidad "
+"completa"
+
+#: models/ArContactUsConfigModel.php:1323
+msgid "Onesignal requires HTTPS"
+msgstr "Una señal requiere HTTPS"
+
+#: models/ArContactUsConfigModel.php:1324
+msgid ""
+"\"REST API for Perfex CRM\" module should be installed for Perfex CRM. More: "
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1325
+#: models/ArContactUsConfigLiveChat.php:163
+msgid "Live helper chat"
+msgstr "Chat del ayudante en vivo"
+
+#: models/ArContactUsConfigModel.php:1326
+#: models/ArContactUsConfigLiveChat.php:166
+msgid "Smartsupp"
+msgstr "Smartsupp"
+
+#: models/ArContactUsConfigModel.php:1327
+#: models/ArContactUsConfigLiveChat.php:169
+msgid "LiveChat"
+msgstr "Chat en vivo"
+
+#: models/ArContactUsConfigModel.php:1328
+msgid "LiveChat Pro"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1329
+#: models/ArContactUsConfigLiveChat.php:178
+msgid "Tidio"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1330
+msgid "jivosite"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1331
+msgid "FreshChat chat widget"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1332
+msgid "PhpLive chat widget"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:1333
+msgid "Paldesk chat widget"
+msgstr ""
+
+#: models/ArContactUsConfigModelAbstract.php:671
+msgid "Enabled"
+msgstr "Activado"
+
+#: models/ArContactUsConfigModelAbstract.php:676
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: models/ArContactUsConfigLiveChat.php:139
+msgid "Tawk.to"
+msgstr "Tawk.to"
+
+#: models/ArContactUsConfigLiveChat.php:142
+msgid "Crisp"
+msgstr "Crisp"
+
+#: models/ArContactUsConfigLiveChat.php:145
+msgid "Intercom"
+msgstr "Intercom"
+
+#: models/ArContactUsConfigLiveChat.php:172
+msgid "LiveChatPro"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:175
+msgid "LiveZilla"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:181
+msgid "Jivosite"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:184
+msgid "Zoho SalesIQ"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:187
+msgid "FreshChat"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:190
+msgid "PhpLive"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:193
+msgid "Paldesk"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:301 views/admin/config.php:75
+msgid "Live chat integrations"
+msgstr "Integraciones de chat en vivo"
+
+#: models/ArContactUsConfigLiveChat.php:331
+#: models/ArContactUsConfigLiveChat.php:336
+#: models/ArContactUsConfigLiveChat.php:341
+#: models/ArContactUsConfigLiveChat.php:346
+#: models/ArContactUsConfigLiveChat.php:351
+#: models/ArContactUsConfigLiveChat.php:364
+#: models/ArContactUsConfigLiveChat.php:369
+#: models/ArContactUsConfigLiveChat.php:374
+#: models/ArContactUsConfigLiveChat.php:379
+#: models/ArContactUsConfigLiveChat.php:384
+msgid "Field \"{label}\" is required"
+msgstr "El campo \"{label}\" es obligatorio"
+
+#: models/ArContactUsConfigGeneral.php:59
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: views/admin/_item_modal.php:4 views/admin/config.php:175
+#: views/admin/config.php:301
+msgid "Add item"
+msgstr "Agregar elemento"
+
+#: views/admin/_item_modal.php:13
+msgid "General"
+msgstr ""
+
+#: views/admin/_item_modal.php:14 views/admin/_item_modal.php:225
+msgid "Action"
+msgstr "Acción"
+
+#: views/admin/_item_modal.php:15
+msgid "Visibility"
+msgstr ""
+
+#: views/admin/_item_modal.php:66 views/admin/_item_modal.php:99
+msgid "Subtitle"
+msgstr ""
+
+#: views/admin/_item_modal.php:110
+msgid "Icon type"
+msgstr ""
+
+#: views/admin/_item_modal.php:113 views/admin/_form_modal.php:66
+#: views/admin/_form_modal.php:139
+msgid "FontAwesome 5"
+msgstr ""
+
+#: views/admin/_item_modal.php:124 views/admin/_item_modal.php:158
+#: views/admin/_items_table.php:5 views/admin/_items_table.php:33
+#: views/admin/_items_table.php:145
+msgid "Icon"
+msgstr "Icono"
+
+#: views/admin/_item_modal.php:128 views/admin/_form_modal.php:80
+#: views/admin/_form_modal.php:153 views/helper/form.php:218
+msgid "Select icon"
+msgstr "Seleccionar icono"
+
+#: views/admin/_item_modal.php:146
+msgid "FontAwesome icon"
+msgstr ""
+
+#: views/admin/_item_modal.php:150 views/admin/_form_modal.php:102
+#: views/admin/_form_modal.php:175
+#, php-format
+msgid "You can use FontAwesome5 icon. Please find needed icon here %s"
+msgstr ""
+
+#: views/admin/_item_modal.php:171
+msgid "Remove circle around icon"
+msgstr ""
+
+#: views/admin/_item_modal.php:180
+msgid "Color"
+msgstr "Color"
+
+#: views/admin/_item_modal.php:187
+msgid "Brand color"
+msgstr ""
+
+#: views/admin/_item_modal.php:214
+msgid "Include icon to slider"
+msgstr ""
+
+#: views/admin/_item_modal.php:227 views/admin/_item_modal.php:253
+#: views/admin/_button_modal.php:31
+msgid "Link"
+msgstr "Enlace"
+
+#: views/admin/_item_modal.php:228 views/admin/_item_modal.php:326
+#: views/admin/_items_table.php:65
+msgid "Integration"
+msgstr "Integración"
+
+#: views/admin/_item_modal.php:229 views/admin/_item_modal.php:340
+#: views/admin/_items_table.php:67
+msgid "Custom JS code"
+msgstr "Código JS personalizado"
+
+#: views/admin/_item_modal.php:230 views/admin/_item_modal.php:240
+msgid "Form"
+msgstr ""
+
+#: views/admin/_item_modal.php:231 views/admin/_items_table.php:71
+msgid "Custom popup"
+msgstr ""
+
+#: views/admin/_item_modal.php:254
+msgid "Deeplink examples"
+msgstr ""
+
+#: views/admin/_item_modal.php:259
+#, php-format
+msgid ""
+"You can set absolute or relative URL. You can use %s{site}%s and %s{url}%s "
+"variables."
+msgstr ""
+
+#: views/admin/_item_modal.php:268
+msgid "Target"
+msgstr "Destino"
+
+#: views/admin/_item_modal.php:270
+msgid "New window"
+msgstr "Nueva ventana"
+
+#: views/admin/_item_modal.php:271
+msgid "Same window"
+msgstr "Misma ventana"
+
+#: views/admin/_item_modal.php:282 views/admin/_item_modal.php:315
+msgid "Content"
+msgstr ""
+
+#: views/admin/_item_modal.php:344
+msgid ""
+"JavaScript code to run onclick. Please type here JavaScript code without <b>"
+"&lt;script&gt;</b> tag."
+msgstr ""
+"Código JavaScript para ejecutarlo con un clic. Por favor, escriba aquí el "
+"código JavaScript sin <b>&lt;script&gt;</b> tag."
+
+#: views/admin/_item_modal.php:354
+msgid "Device"
+msgstr "Dispositivo"
+
+#: views/admin/_item_modal.php:356
+msgid "Desktop and mobile"
+msgstr "Desktop y móvil"
+
+#: views/admin/_item_modal.php:357
+msgid "Desktop only"
+msgstr "Solo de escritorio"
+
+#: views/admin/_item_modal.php:358
+msgid "Mobile only"
+msgstr "Sólo para móviles"
+
+#: views/admin/_item_modal.php:367
+msgid "Users"
+msgstr ""
+
+#: views/admin/_item_modal.php:369
+msgid "All users"
+msgstr ""
+
+#: views/admin/_item_modal.php:370
+msgid "Logged-in users only"
+msgstr ""
+
+#: views/admin/_item_modal.php:371
+msgid "Not logged-in users only"
+msgstr ""
+
+#: views/admin/_item_modal.php:381
+msgid "Show for language"
+msgstr ""
+
+#: views/admin/_item_modal.php:383
+msgid "all languages"
+msgstr ""
+
+#: views/admin/_item_modal.php:398
+msgid "Always display this item"
+msgstr ""
+
+#: views/admin/_item_modal.php:408
+msgid "Schedule"
+msgstr ""
+
+#: views/admin/_item_modal.php:410
+msgid "Current server time:"
+msgstr ""
+
+#: views/admin/_item_modal.php:435
+msgid "If item is not active"
+msgstr ""
+
+#: views/admin/_item_modal.php:437
+msgid "Hide this item"
+msgstr ""
+
+#: views/admin/_item_modal.php:438
+msgid "Show offline badge"
+msgstr ""
+
+#: views/admin/_item_modal.php:449
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: views/admin/_item_modal.php:459 views/admin/_form_modal.php:509
+#: views/admin/callback-requests.php:61 views/admin/_button_modal.php:99
+#: views/admin/_field_modal.php:188 views/admin/config.php:231
+#: views/admin/email-requests.php:61
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/admin/_item_modal.php:462 views/admin/_form_modal.php:512
+#: views/admin/callback-requests.php:64 views/admin/_button_modal.php:102
+#: views/admin/_field_modal.php:191 views/admin/config.php:234
+#: views/admin/email-requests.php:64 views/helper/form.php:240
+msgid "Save"
+msgstr "Guardar"
+
+#: views/admin/_email_requests.php:12 views/admin/_requests.php:12
+msgid "All"
+msgstr "Todos"
+
+#: views/admin/_email_requests.php:21 views/admin/_requests.php:21
+#: views/admin/partials/status.php:10
+msgid "Ignored"
+msgstr "Ignorado"
+
+#: views/admin/_form_modal.php:4
+msgid "Form options"
+msgstr ""
+
+#: views/admin/_form_modal.php:13 views/admin/_button_modal.php:14
+#: views/admin/_field_modal.php:14
+msgid "ID"
+msgstr ""
+
+#: views/admin/_form_modal.php:21
+msgid "Form header"
+msgstr ""
+
+#: views/admin/_form_modal.php:34
+msgid "No header"
+msgstr ""
+
+#: views/admin/_form_modal.php:36
+msgid "Text with icon left"
+msgstr ""
+
+#: views/admin/_form_modal.php:37
+msgid "Text with icon center"
+msgstr ""
+
+#: views/admin/_form_modal.php:46
+msgid "Header label"
+msgstr ""
+
+#: views/admin/_form_modal.php:98
+msgid "Header FontAwesome icon"
+msgstr ""
+
+#: views/admin/_form_modal.php:131
+msgid "Change button icon if form is opened"
+msgstr ""
+
+#: views/admin/_form_modal.php:137
+msgid "Do not change button icon"
+msgstr ""
+
+#: views/admin/_form_modal.php:171
+msgid "Button FontAwesome icon"
+msgstr ""
+
+#: views/admin/_form_modal.php:196
+msgid "Form content"
+msgstr ""
+
+#: views/admin/_form_modal.php:225
+msgid "actions"
+msgstr ""
+
+#: views/admin/_form_modal.php:232
+msgid "Send email on success"
+msgstr ""
+
+#: views/admin/_form_modal.php:246
+msgid "One email per line"
+msgstr ""
+
+#: views/admin/_form_modal.php:260
+msgid "Send SMS on success"
+msgstr ""
+
+#: views/admin/_form_modal.php:303
+msgid "Send telegram message"
+msgstr ""
+
+#: views/admin/_form_modal.php:346
+msgid "Send webpush message"
+msgstr ""
+
+#: views/admin/_form_modal.php:373
+msgid "Webpush message message"
+msgstr ""
+
+#: views/admin/_form_modal.php:389
+msgid "Create lead in Perfex CRM"
+msgstr ""
+
+#: views/admin/_form_modal.php:402
+msgid "Source ID"
+msgstr ""
+
+#: views/admin/_form_modal.php:403
+msgid "You can get source ID from setup/leads/sources in your Perfex CRM"
+msgstr ""
+
+#: views/admin/_form_modal.php:417
+msgid "Status ID"
+msgstr ""
+
+#: views/admin/_form_modal.php:418
+msgid "You can get status ID from setup/leads/statuses in your Perfex CRM"
+msgstr ""
+
+#: views/admin/_form_modal.php:453
+msgid "Webhook"
+msgstr ""
+
+#: views/admin/_form_modal.php:466
+msgid "Webhook URL"
+msgstr ""
+
+#: views/admin/_form_modal.php:477
+msgid "Advanced options"
+msgstr ""
+
+#: views/admin/_form_modal.php:484
+msgid "Desktop width"
+msgstr ""
+
+#: views/admin/_form_modal.php:496
+msgid "Close form automatically after"
+msgstr ""
+
+#: views/admin/callback-requests.php:2 views/admin/config.php:84
+msgid "Callback requests"
+msgstr "Solicitudes de devolución de llamada"
+
+#: views/admin/callback-requests.php:6 views/admin/email-requests.php:6
+msgid "Reload table"
+msgstr "Recargar tabla"
+
+#: views/admin/callback-requests.php:7 views/admin/email-requests.php:7
+msgid "Export to CSV"
+msgstr ""
+
+#: views/admin/callback-requests.php:31 views/admin/email-requests.php:31
+msgid "Edit item comment"
+msgstr ""
+
+#: views/admin/callback-requests.php:51 views/admin/email-requests.php:51
+msgid "Comment"
+msgstr ""
+
+#: views/admin/_forms.php:2
+msgid ""
+"This action will replace all current forms to default! Do you want to "
+"proceed?"
+msgstr ""
+
+#: views/admin/_forms.php:2
+msgid "Reset forms to default"
+msgstr ""
+
+#: views/admin/_forms.php:23
+msgid "Remove field"
+msgstr ""
+
+#: views/admin/_forms.php:27
+msgid "Field settings"
+msgstr ""
+
+#: views/admin/_forms.php:73
+msgid "Add field"
+msgstr ""
+
+#: views/admin/_forms.php:83
+msgid "Remove button"
+msgstr ""
+
+#: views/admin/_forms.php:98
+msgid "Add button"
+msgstr ""
+
+#: views/admin/_button_modal.php:4
+msgid "Button options"
+msgstr ""
+
+#: views/admin/_button_modal.php:24
+msgid "Button type"
+msgstr ""
+
+#: views/admin/_button_modal.php:40 views/admin/_field_modal.php:55
+msgid "Label"
+msgstr ""
+
+#: views/admin/_button_modal.php:56
+msgid "URL"
+msgstr ""
+
+#: views/admin/_button_modal.php:69
+msgid "Open link in new window"
+msgstr ""
+
+#: views/admin/_button_modal.php:86
+msgid "CSS class"
+msgstr ""
+
+#: views/admin/_about.php:4
+msgid "Debug mode is active. Click to disable debug mode."
+msgstr ""
+
+#: views/admin/_about.php:4
+msgid "Debug mode is off. Click to activate debug mode."
+msgstr ""
+
+#: views/admin/_about.php:10
+msgid "All-in-one contact us button"
+msgstr "Botón de contacto todo en uno"
+
+#: views/admin/_about.php:13
+msgid ""
+"This plugin displays contact button with customizable menu on every page. So "
+"your customers will able to contact you easily."
+msgstr ""
+"Este plugin muestra un botón de contacto con un menú personalizable en cada "
+"página. De este modo, sus clientes podrán ponerse en contacto con usted "
+"fácilmente."
+
+#: views/admin/_about.php:20
+msgid "Purchase code"
+msgstr ""
+
+#: views/admin/_about.php:29
+msgid "Activate"
+msgstr ""
+
+#: views/admin/_about.php:32
+msgid "Purchase code: "
+msgstr ""
+
+#: views/admin/_about.php:35
+msgid "Deactivate for this domain"
+msgstr ""
+
+#: views/admin/_about.php:40
+msgid "Updates channel:"
+msgstr ""
+
+#: views/admin/_about.php:42
+msgid "Production"
+msgstr ""
+
+#: views/admin/_about.php:43
+msgid "Beta"
+msgstr ""
+
+#: views/admin/_about.php:53
+#, php-format
+msgid ""
+"We hope you would find this plugin useful and would have 1 minute to %s, "
+"this encourage our support and developers."
+msgstr ""
+"Esperamos que encuentre este plugin útil y que tenga de 1 minuto a %s, esto "
+"anima a nuestro soporte y desarrolladores."
+
+#: views/admin/_about.php:53
+msgid "give us excellent rating"
+msgstr "nos dan una excelente calificación"
+
+#: views/admin/_about.php:56
+#, php-format
+msgid "If you like this plugin please follow us on %s."
+msgstr "Si te gusta este plugin por favor síguenos en %s."
+
+#: views/admin/_about.php:60
+msgid "5 stars"
+msgstr "5 estrellas"
+
+#: views/admin/_about.php:64
+#, php-format
+msgid "If you have any questions or suggestions about this plugin, please %s"
+msgstr "Si tiene alguna pregunta o sugerencia sobre este plugin, por favor %s"
+
+#: views/admin/_about.php:64
+msgid "contact us"
+msgstr "contáctenos"
+
+#: views/admin/_about.php:67
+msgid "Also please checkout our other plugins that can help improve your site!"
+msgstr ""
+"También por favor, compruebe nuestros otros plugins que pueden ayudar a "
+"mejorar su sitio!"
+
+#: views/admin/_about.php:104
+msgid "View all our plugins &gt;&gt;&gt;"
+msgstr "Ver todos nuestros plugins &gt;&gt;&gt;"
+
+#: views/admin/_field_modal.php:4
+msgid "Field options"
+msgstr ""
+
+#: views/admin/_field_modal.php:24
+msgid "Required"
+msgstr ""
+
+#: views/admin/_field_modal.php:35
+msgid "Field type"
+msgstr ""
+
+#: views/admin/_field_modal.php:41
+msgid "Text field"
+msgstr ""
+
+#: views/admin/_field_modal.php:42
+msgid "Phone field"
+msgstr ""
+
+#: views/admin/_field_modal.php:43
+msgid "Email field"
+msgstr ""
+
+#: views/admin/_field_modal.php:44
+msgid "Textarea"
+msgstr ""
+
+#: views/admin/_field_modal.php:45
+msgid "Checkbox"
+msgstr ""
+
+#: views/admin/_field_modal.php:46
+msgid "Select"
+msgstr ""
+
+#: views/admin/_field_modal.php:66
+msgid "Placeholder"
+msgstr ""
+
+#: views/admin/_field_modal.php:77
+msgid "Values"
+msgstr ""
+
+#: views/admin/_field_modal.php:88
+msgid "Value"
+msgstr ""
+
+#: views/admin/_field_modal.php:101
+msgid "Enable mask"
+msgstr ""
+
+#: views/admin/_field_modal.php:112
+msgid ""
+"Mask functionality temporarily does not work. We are moving to non-jquery "
+"plugin, so <b>jquery.maskedinput</b> plugin does not meet our requirements "
+"anymore. We are working on new maskedinput plugin now."
+msgstr ""
+
+#: views/admin/_field_modal.php:115
+msgid "Mask"
+msgstr ""
+
+#: views/admin/_field_modal.php:131
+msgid "Validation"
+msgstr ""
+
+#: views/admin/_field_modal.php:137
+msgid "-- none --"
+msgstr ""
+
+#: views/admin/_field_modal.php:139
+msgid "Enable only letters and spaces"
+msgstr ""
+
+#: views/admin/_field_modal.php:140
+msgid "Enable only numbers and spaces"
+msgstr ""
+
+#: views/admin/_field_modal.php:141
+msgid "Enable only letters, numbers and spaces"
+msgstr ""
+
+#: views/admin/_field_modal.php:142
+msgid "Advanced (regular expression)"
+msgstr ""
+
+#: views/admin/_field_modal.php:151
+msgid "Regular expression"
+msgstr ""
+
+#: views/admin/_field_modal.php:166
+msgid "Include to report"
+msgstr ""
+
+#: views/admin/_field_modal.php:177
+msgid "Report column label"
+msgstr ""
+
+#: views/admin/config.php:10
+#, php-format
+msgid "All-in-one contact button %swith call-back request feature%s"
+msgstr ""
+"Botón de contacto todo en uno %s con función de solicitud de devolución de "
+"llamada%s"
+
+#: views/admin/config.php:17
+msgid "Plugin is not activated."
+msgstr ""
+
+#: views/admin/config.php:17
+msgid "You will not receive updates automaticaly."
+msgstr ""
+
+#: views/admin/config.php:18
+msgid "Please activate plugin."
+msgstr ""
+
+#: views/admin/config.php:25
+msgid "Page will be reloaded after 3 seconds"
+msgstr ""
+
+#: views/admin/config.php:48
+msgid "General configuration"
+msgstr "Configuración General"
+
+#: views/admin/config.php:57
+msgid "Integration settings"
+msgstr ""
+
+#: views/admin/config.php:60
+msgid "Forms"
+msgstr ""
+
+#: views/admin/config.php:64
+msgid "Email templates"
+msgstr ""
+
+#: views/admin/config.php:78
+msgid "Prompt messages"
+msgstr "Mensajes inmediatos"
+
+#: views/admin/config.php:81
+msgid "Menu items"
+msgstr "Elementos del menú"
+
+#: views/admin/config.php:91
+msgid "Export/import"
+msgstr "Exportación/importación"
+
+#: views/admin/config.php:94
+msgid "Help"
+msgstr ""
+
+#: views/admin/config.php:100
+msgid "About"
+msgstr "Acerca de"
+
+#: views/admin/config.php:300
+msgid "Edit item"
+msgstr "Editar elemento"
+
+#: views/admin/_prompt_table.php:6 views/admin/_prompt_table.php:47
+#: views/admin/_items_table.php:12 views/admin/_items_table.php:123
+#: views/admin/_items_table.php:152
+msgid "Active"
+msgstr "Activo"
+
+#: views/admin/_prompt_table.php:27 views/admin/_items_table.php:126
+msgid "Yes"
+msgstr "Sí"
+
+#: views/admin/_prompt_table.php:27 views/admin/_items_table.php:126
+msgid "No"
+msgstr "No"
+
+#: views/admin/_prompt_table.php:32 views/admin/_items_table.php:131
+msgid "Edit"
+msgstr "Editar"
+
+#: views/admin/_prompt_table.php:36 views/admin/_items_table.php:135
+msgid "Delete"
+msgstr "Eliminar"
+
+#: views/admin/_button.php:3 views/admin/_prompt.php:3 views/admin/_menu.php:3
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: views/admin/_button.php:4 views/admin/_prompt.php:4 views/admin/_menu.php:4
+msgid "Mobile"
+msgstr "Móvil"
+
+#: views/admin/_onesignal.php:26
+msgid "Thanks for subscribing!"
+msgstr "Gracias por suscribirse!"
+
+#: views/admin/_onesignal.php:43
+msgid "Subscribe to push notifications"
+msgstr "Suscribirse a las notificaciones push"
+
+#: views/admin/_onesignal.php:44
+msgid "Unsubscribe from push notifications"
+msgstr "Darse de baja de las notificaciones push"
+
+#: views/admin/_data.php:4 views/admin/_data.php:34
+msgid "Export data"
+msgstr "Exportar datos"
+
+#: views/admin/_data.php:9
+msgid "Export settings"
+msgstr "Exportar ajustes"
+
+#: views/admin/_data.php:16
+msgid "Export menu items"
+msgstr "Exportar elementos del menú"
+
+#: views/admin/_data.php:23
+msgid "Export prompt items"
+msgstr "Exportar posiciones de aviso"
+
+#: views/admin/_data.php:30
+msgid "Export callback requests"
+msgstr "Exportar solicitudes de devolución de llamada"
+
+#: views/admin/_data.php:40 views/admin/_data.php:57
+msgid "Import data"
+msgstr "Importar datos"
+
+#: views/admin/_data.php:42 views/admin/_data.php:66
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: views/admin/_data.php:43
+msgid "All existing data will be loss!"
+msgstr "Todos los datos existentes se perderán!"
+
+#: views/admin/_data.php:46
+msgid "Import file (export.json)"
+msgstr "Importar archivo (export.json)"
+
+#: views/admin/_data.php:53
+msgid "I accept that all existing data will be loss"
+msgstr "Acepto que todos los datos existentes se perderán"
+
+#: views/admin/_data.php:64
+msgid "Migrate settings data to new storage format"
+msgstr ""
+
+#: views/admin/_data.php:67
+msgid "All existing settings will be replaced!"
+msgstr ""
+
+#: views/admin/_data.php:73
+msgid "I accept that all existing settings will be replaced"
+msgstr ""
+
+#: views/admin/_data.php:77
+msgid "Migrate"
+msgstr ""
+
+#: views/admin/_callback.php:7
+msgid "Google reCaptcha V3"
+msgstr "Google reCaptcha V3"
+
+#: views/admin/_callback.php:9
+msgid ""
+"This module can be integrated with Google reCaptcha to prevent bots from "
+"sending callback requests."
+msgstr ""
+"Este módulo puede ser integrado con Google reCaptcha para evitar que los "
+"bots envíen solicitudes de devolución de llamada."
+
+#: views/admin/_callback.php:12
+msgid ""
+"To use this integration you need to get reCaptcha V3 key and secret. Please "
+"follow this link:"
+msgstr ""
+"Para utilizar esta integración es necesario obtener la clave y el secreto de "
+"reCaptcha V3. Por favor, siga este enlace:"
+
+#: views/admin/_callback.php:18
+msgid "Twilio"
+msgstr "Twilio"
+
+#: views/admin/_callback.php:20
+msgid "This module can be integrated with Twilio SMS service."
+msgstr "Este módulo se puede integrar con el servicio Twilio SMS."
+
+#: views/admin/_callback.php:23
+msgid ""
+"To use this integration you need to signup to Twilio. Please follow this "
+"link:"
+msgstr ""
+"Para utilizar esta integración es necesario registrarse en Twilio. Por favor,"
+" siga este enlace:"
+
+#: views/admin/_callback.php:29
+msgid "Onesignal"
+msgstr "Una sola señal"
+
+#: views/admin/_callback.php:31
+msgid "This module can be integrated with Onesignal webpush service."
+msgstr "Este módulo se puede integrar con el servicio webpush de Onesignal."
+
+#: views/admin/_callback.php:34
+msgid ""
+"To use this integration you need to signup to Onesignal. Please follow this "
+"link:"
+msgstr ""
+"Para utilizar esta integración es necesario registrarse en Onesignal. Por "
+"favor, siga este enlace:"
+
+#: views/admin/_prompt_items.php:4 views/admin/_items.php:4
+msgid "Add"
+msgstr "Añadir"
+
+#: views/admin/_items_table.php:7 views/admin/_items_table.php:57
+#: views/admin/_items_table.php:147
+msgid "Type"
+msgstr "Tipo"
+
+#: views/admin/_items_table.php:8 views/admin/_items_table.php:148
+msgid "Display"
+msgstr ""
+
+#: views/admin/_items_table.php:60
+msgid "Link:"
+msgstr ""
+
+#: views/admin/_items_table.php:69
+msgid "Form:"
+msgstr ""
+
+#: views/admin/_items_table.php:76
+msgid "Display options"
+msgstr ""
+
+#: views/admin/_items_table.php:79
+msgid "displays on desktop and mobile"
+msgstr "pantallas en el escritorio y en el móvil"
+
+#: views/admin/_items_table.php:84
+msgid "displays on desktop only"
+msgstr "sólo pantallas en el escritorio"
+
+#: views/admin/_items_table.php:88
+msgid "displays on mobile only"
+msgstr "sólo pantallas en el móvil"
+
+#: views/admin/_items_table.php:94
+msgid "show for all users"
+msgstr ""
+
+#: views/admin/_items_table.php:98
+msgid "show to logged-in users only"
+msgstr ""
+
+#: views/admin/_items_table.php:102
+msgid "show to logged-out users only"
+msgstr ""
+
+#: views/admin/_items_table.php:114
+msgid "all"
+msgstr ""
+
+#: views/admin/partials/request-item-header.php:18
+msgid "User"
+msgstr ""
+
+#: views/admin/partials/request-item-header.php:21
+msgid "Created at"
+msgstr ""
+
+#: views/admin/partials/request-item-header.php:24
+msgid "Status"
+msgstr ""
+
+#: views/admin/partials/comment.php:22
+msgid "[edit]"
+msgstr ""
+
+#. Name of the plugin
+msgid "Contact Us all-in-one button"
+msgstr "Contáctenos con el botón todo en uno"
+
+#. Description of the plugin
+msgid ""
+"Display contact us button with menu on every page. Callback request, "
+"reCaptcha V3 protection and many customizations!"
+msgstr ""
+"Mostrar botón de contacto con nosotros con menú en cada página. Solicitud de "
+"devolución de llamada, protección reCaptcha V3 y muchas personalizaciones!"
+
+#. URI of the plugin
+msgid "https://plugins.areama.net/ar-contactus/docs/"
+msgstr "https://plugins.areama.net/ar-contactus/docs/"
+
+#. Author of the plugin
+msgid "Areama"
+msgstr "Areama"
+
+#. Author URI of the plugin
+msgid "https://plugins.areama.net/"
+msgstr ""

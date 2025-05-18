@@ -1,0 +1,8 @@
+2025-05-13T15:55:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "LiteSpeed\Img_Optm" not found in /home/u885779361/domains/ivory-snail-327269.hostingersite.com/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u885779361/domains/ivory-snail-327269.hostingersite.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/u885779361/domains/ivory-snail-327269.hostingersite.com/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/u885779361/domains/ivory-snail-327269.hostingersite.com/public_html/wp-cron.php(191): do_action_ref_array()
+#3 {main}
+  thrown in /home/u885779361/domains/ivory-snail-327269.hostingersite.com/public_html/wp-includes/class-wp-hook.php on line 324
+

@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('affwp-portal-alpine-chart', 'affwp-portal-sdk', 'wp-polyfill'), 'version' => '57b4d658460ab5c21b2e8d9e20327408');

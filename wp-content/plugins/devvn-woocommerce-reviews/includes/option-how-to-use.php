@@ -1,0 +1,5 @@
+<?php
+
+echo "<h2>Video hướng dẫn sử dụng</h2>\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xoSwQmTxIfY?start=318\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n<h2>Chú ý cài đặt sau khi cài</h2>\r\n<p>Vào phần cài đặt -> thảo luận setting các thông số như sau.</p>\r\n<img class=\"aligncenter wp-image-2733 size-full\" src=\"https://levantoan.com/wp-content/uploads/2019/08/setting-note-required.png\" alt=\"\">\r\n<p>Nếu đã cài đặt mà vẫn không hiện reivews ngoài chi tiết sản phẩm thì có 2 trường hợp sau<br>\r\n    – Có thể đã remove reviews trong functions.php hãy kiểm tra lại code của bạn<br>\r\n    – Chưa bật option trong admin. hãy kiểm tra như 2 hình bên dưới này</p>\r\n\r\n<img class=\"alignleft wp-image-2861\" src=\"https://levantoan.com/wp-content/uploads/2019/08/check-da-mo-review-trong-single-hay-chua.png\" alt=\"\">\r\n<img class=\"alignnone wp-image-2862 \" src=\"https://levantoan.com/wp-content/uploads/2019/08/enable-review-setting.png\" alt=\"\">";
+
+?>

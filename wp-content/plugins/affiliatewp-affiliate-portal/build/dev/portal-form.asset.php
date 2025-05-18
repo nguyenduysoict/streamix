@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('affwp-portal-alpine-form', 'affwp-portal-sdk', 'wp-polyfill'), 'version' => 'b8c9a526d5ffa371a93c06215108e722');
